@@ -1,0 +1,3292 @@
+{
+  "vaultName": "Hacking",
+  "lastExport": 1712254888571,
+  "pluginVersion": "1.8.01",
+  "validBodyClasses": "publish css-settings-manager theme-dark show-inline-title",
+  "useCustomHeadContent": false,
+  "useCustomFavicon": false,
+  "files": [
+    "Notes/3. Sistema/Formatos Ejecutables/Linux - Unix/Graficos/ELF_Format.draw.md",
+    "Notes/3. Sistema/Formatos Ejecutables/Linux - Unix/Executable and Linkable Format - Formato ELF.md",
+    "Notes/3. Sistema/Formatos Ejecutables/Windows/Graficos/PE_Format.draw.md",
+    "Notes/3. Sistema/Formatos Ejecutables/Windows/Portable Executable - Formato PE.md",
+    "Notes/3. Sistema/Malware/Malware.md",
+    "Notes/3. Sistema/Memoria/Memorias/Entendiendo la memoria RAM.md",
+    "Notes/3. Sistema/Memoria/Gestión de Memoria.md",
+    "Notes/3. Sistema/Named Pipes/Named and Unnamed Pipes.md",
+    "Notes/4. Cybersecurity/BlueTeam/API Sec/API - (Application Programming Interfaces).md",
+    "Notes/4. Cybersecurity/BlueTeam/API Sec/Los 3 pilares - (API Sec).md",
+    "Notes/4. Cybersecurity/BlueTeam/API Sec/Mejores prácticas.md",
+    "Notes/4. Cybersecurity/BlueTeam/API Sec/OWASP Top 10 API.md",
+    "Notes/4. Cybersecurity/BlueTeam/Defensive Tools/Falcon CrowdStrike/Falcon CrowdStrike.md",
+    "Notes/4. Cybersecurity/BlueTeam/Defensive Tools/Sumo Logic/Create a collector (Linux)/Creating my first collector.md",
+    "Notes/4. Cybersecurity/BlueTeam/Defensive Tools/Sumo Logic/1. Sumo Logic & Estrategía de Recolección de datos.md",
+    "Notes/4. Cybersecurity/BlueTeam/Defensive Tools/Sumo Logic/2. Collectors, Sources & Metadata.md",
+    "Notes/4. Cybersecurity/BlueTeam/Defensive Tools/Sumo Logic/3. Ingestión de Datos y Niveles de Datos.md",
+    "Notes/4. Cybersecurity/BlueTeam/Defensive Tools/Sumo Logic/4. Data Search (Métricas, Tracing).md",
+    "Notes/4. Cybersecurity/BlueTeam/Defensive Tools/Sumo Logic/5. Alert Response.md",
+    "Notes/4. Cybersecurity/BlueTeam/Malware Analysis/PDF/Malware analysis in PDF's.md",
+    "Notes/4. Cybersecurity/BlueTeam/Malware Analysis/Sistem/Análisis de Malware.md",
+    "Notes/4. Cybersecurity/BlueTeam/Malware Analysis/Sistem/Setup Analysis Enviroment.md",
+    "Notes/4. Cybersecurity/BlueTeam/Phishing/Autenticación de Correos Electrónicos.md",
+    "Notes/4. Cybersecurity/BlueTeam/Phishing/Phishing Analysis.md",
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Entorno/Personalización de Entorno de Hacking.md",
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/IoT/1. Threat Modeling.md",
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/IoT/2. Security Testing Methodology.md",
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Redes/Basico/Redes/1. Structure/Proxies.md",
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Redes/Basico/Redes/1. Structure/Tipos de Redes.md",
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Redes/Basico/Redes/1. Structure/Topologías de redes.md",
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Redes/Basico/Redes/2. Workflow/Network Models/OSI Model/Modelo OSI - OSI Model.md",
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Redes/Basico/Redes/2. Workflow/Network Models/OSI Model/OSI Model.excalidraw.md",
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Redes/Basico/Redes/2. Workflow/Network Models/OSI Model/osimodel_example.excalidraw.md",
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Redes/Basico/Redes/2. Workflow/Network Models/TCP-IP Model/Modelo TCP-IP - TCP-IP Model.md",
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Redes/Basico/Redes/2. Workflow/Network Models/TCP-IP Model/TCP-IP Model.excalidraw.md",
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Redes/Basico/Redes/2. Workflow/Network Models/Modelos de redes.md",
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Redes/Basico/Redes/2. Workflow/Network Models/OSI vs TPC-IP Model.excalidraw.md",
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Redes/Basico/Redes/3. Addressing/1. Network Layer - OSI.md",
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Redes/Basico/Redes/3. Addressing/2. IPv4 Addresses - Direcciones IPv4.md",
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Redes/Basico/Redes/3. Addressing/3. Subneting - Subredes.md",
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Redes/Basico/Redes/Conceptos Basicos.md",
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Redes/Basico/Conexión.md",
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Redes/Explotación/Ataques/ARP Spoof - Envenenamiento ARP.md",
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Redes/Explotación/Ataques/HTTPS Sniffing - SSL Stripping.md",
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Redes/Explotación/ConexionesWiFi_draw.md",
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Redes/Explotación/DEAUTHENTICATION_ATTACK_draw.md",
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Redes/Explotación/Hacking WiFi.md",
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/1. Basico/Conceptos Generales.md",
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/1. Basico/Hashes NT, NTLM y NTLMv2.md",
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/1. Basico/Tratamiento de la TTY.md",
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/2. Fases Auditoria/1. Reconocimiento/Binarys/Gdb.md",
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/2. Fases Auditoria/1. Reconocimiento/Binarys/Radare2.md",
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/2. Fases Auditoria/1. Reconocimiento/Gestores De Contenido/Drupal/Enumeración de Drupal.md",
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/2. Fases Auditoria/1. Reconocimiento/Gestores De Contenido/Drupal/Ganar acceso con Drupal comprometido.md",
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/2. Fases Auditoria/1. Reconocimiento/Gestores De Contenido/Joomla/Joomla.md",
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/2. Fases Auditoria/1. Reconocimiento/Gestores De Contenido/Joomla/RCE tras acceso a Joomla con cuenta admin.md",
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/2. Fases Auditoria/1. Reconocimiento/Gestores De Contenido/Wordpress/Enumeración de Wordpress.md",
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/2. Fases Auditoria/1. Reconocimiento/Gestores De Contenido/Wordpress/RCE tras acceso a Wordpress con cuenta admin.md",
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/2. Fases Auditoria/1. Reconocimiento/Gestores De Contenido/Magento.md",
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/2. Fases Auditoria/1. Reconocimiento/IIS/IIS - (Internet Information Service).md",
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/2. Fases Auditoria/1. Reconocimiento/Nube/Certificados SSL.md",
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/2. Fases Auditoria/1. Reconocimiento/Nube/Enumerar Amazon Web Service.md",
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/2. Fases Auditoria/1. Reconocimiento/Nube/Git Dorking.md",
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/2. Fases Auditoria/1. Reconocimiento/Nube/Google Dorking.md",
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/2. Fases Auditoria/1. Reconocimiento/Protocolos/TCP/Enum WHOIS - (Port 43).md",
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/2. Fases Auditoria/1. Reconocimiento/Protocolos/TCP/Enum. DNS - (Domain Name Services).md",
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/2. Fases Auditoria/1. Reconocimiento/Protocolos/TCP/Enum. GlusterFS.md",
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/2. Fases Auditoria/1. Reconocimiento/Protocolos/TCP/Enum. IMAP - ( Internet Message Access Protocol ).md",
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/2. Fases Auditoria/1. Reconocimiento/Protocolos/TCP/Enum. Kerberos.md",
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/2. Fases Auditoria/1. Reconocimiento/Protocolos/TCP/Enum. LDAP - ( Lighweight Directory Access Protocol ).md",
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/2. Fases Auditoria/1. Reconocimiento/Protocolos/TCP/Enum. POP3 - ( Post Office Protocol ).md",
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/2. Fases Auditoria/1. Reconocimiento/Protocolos/TCP/Enum. Redis.md",
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/2. Fases Auditoria/1. Reconocimiento/Protocolos/TCP/Enum. RPC - ( Remote Procedure Call ).md",
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/2. Fases Auditoria/1. Reconocimiento/Protocolos/TCP/Enum. SMB - (Server Message Block).md",
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/2. Fases Auditoria/1. Reconocimiento/Protocolos/TCP/Enum. WINRM - (Windows Rremote Management).md",
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/2. Fases Auditoria/1. Reconocimiento/Protocolos/TCP/Robar data por ICMP.md",
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/2. Fases Auditoria/1. Reconocimiento/Protocolos/UDP/Enumeración del servicio SNMP.md",
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/2. Fases Auditoria/1. Reconocimiento/Enumeración y explotación de SQUID Proxies.md",
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/2. Fases Auditoria/1. Reconocimiento/Enumeración y explotación de WebDAV.md",
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/2. Fases Auditoria/1. Reconocimiento/Fase de Reconocimiento.md",
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/2. Fases Auditoria/2. Explotación/Conceptos Expotacion/Payloads.md",
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/2. Fases Auditoria/2. Explotación/Conceptos Expotacion/Reconocimiento a nivel de Sistema.md",
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/2. Fases Auditoria/2. Explotación/Conceptos Expotacion/Shells.md",
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/2. Fases Auditoria/2. Explotación/Conceptos Expotacion/Tipos de explotación.md",
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/2. Fases Auditoria/2. Explotación/Vulnerabilidades/API Abuse/Explotación/Abuso de APIs.md",
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/2. Fases Auditoria/2. Explotación/Vulnerabilidades/API Abuse/Explotación/Encontrar misconfigurations.md",
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/2. Fases Auditoria/2. Explotación/Vulnerabilidades/API Abuse/Reconocimiento/API/Reverse Engineering/Reverse Engineering an API.md",
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/2. Fases Auditoria/2. Explotación/Vulnerabilidades/API Abuse/Reconocimiento/API/Reconocimiento Activo.md",
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/2. Fases Auditoria/2. Explotación/Vulnerabilidades/API Abuse/Reconocimiento/API/Reconocimiento Pasivo.md",
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/2. Fases Auditoria/2. Explotación/Vulnerabilidades/Padding Oracle/CBC_padding.md",
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/2. Fases Auditoria/2. Explotación/Vulnerabilidades/Padding Oracle/Padding Oracle (Ataque de oráculo de relleno).md",
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/2. Fases Auditoria/2. Explotación/Vulnerabilidades/SSRF/SSRF - (Server-Side Request Forgery).md",
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/2. Fases Auditoria/2. Explotación/Vulnerabilidades/SSRF/SSRF_1stScenario.md",
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/2. Fases Auditoria/2. Explotación/Vulnerabilidades/SSRF/SSRF_2ndScenario.md",
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/2. Fases Auditoria/2. Explotación/Vulnerabilidades/Abuso de enlaces simbólicos.md",
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/2. Fases Auditoria/2. Explotación/Vulnerabilidades/Abuso de USER INPUT.md",
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/2. Fases Auditoria/2. Explotación/Vulnerabilidades/Abuso de xmlrpc.php en Wordpress.md",
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/2. Fases Auditoria/2. Explotación/Vulnerabilidades/Análisis de metadatos en documentos.md",
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/2. Fases Auditoria/2. Explotación/Vulnerabilidades/Ataque de Deserialización Yaml - (DES-Yaml).md",
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/2. Fases Auditoria/2. Explotación/Vulnerabilidades/Ataque de Truncado SQL - ( SQL Truncation ).md",
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/2. Fases Auditoria/2. Explotación/Vulnerabilidades/Ataques de transferencia de zona - ( AXFR - Full Zone Transfer ).md",
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/2. Fases Auditoria/2. Explotación/Vulnerabilidades/Conexión via SSH con Kerberos.md",
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/2. Fases Auditoria/2. Explotación/Vulnerabilidades/CORS - ( Intercambio de recursos de origin cruzado ).md",
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/2. Fases Auditoria/2. Explotación/Vulnerabilidades/CRLF (%0d%0a) Injection.md",
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/2. Fases Auditoria/2. Explotación/Vulnerabilidades/CSRF - (Cross-Side Request Forgery).md",
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/2. Fases Auditoria/2. Explotación/Vulnerabilidades/CSSI - CSS Injections.md",
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/2. Fases Auditoria/2. Explotación/Vulnerabilidades/CSTI - (Client-Side Template Injection).md",
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/2. Fases Auditoria/2. Explotación/Vulnerabilidades/DES-Pickle - ( Ataque de Deserialización Pickle ) - Python.md",
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/2. Fases Auditoria/2. Explotación/Vulnerabilidades/Deserialization Attack - (Ataques de Deserialización).md",
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/2. Fases Auditoria/2. Explotación/Vulnerabilidades/Firma Digital para Cookies.md",
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/2. Fases Auditoria/2. Explotación/Vulnerabilidades/GraphQL Introspection, Mutations e IDORs.md",
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/2. Fases Auditoria/2. Explotación/Vulnerabilidades/H2 Console.md",
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/2. Fases Auditoria/2. Explotación/Vulnerabilidades/IDORs - ( Insecure Direct Object Reference ).md",
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/2. Fases Auditoria/2. Explotación/Vulnerabilidades/Inyecciones LDAP.md",
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/2. Fases Auditoria/2. Explotación/Vulnerabilidades/Inyecciones XPath.md",
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/2. Fases Auditoria/2. Explotación/Vulnerabilidades/JWT - (JSON Web Tokens) Enumeración y explotación.md",
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/2. Fases Auditoria/2. Explotación/Vulnerabilidades/LaTeX Injections - ( Inyecciones LaTex ).md",
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/2. Fases Auditoria/2. Explotación/Vulnerabilidades/LFI - (Local File Inclusion).md",
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/2. Fases Auditoria/2. Explotación/Vulnerabilidades/Mass-Assignment (AttackAtaques de asignación masiva) - Parameter Binding.md",
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/2. Fases Auditoria/2. Explotación/Vulnerabilidades/NoSQLI - (NoSQL Injections).md",
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/2. Fases Auditoria/2. Explotación/Vulnerabilidades/Open Redirect.md",
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/2. Fases Auditoria/2. Explotación/Vulnerabilidades/Openssl Cipher Decryption.md",
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/2. Fases Auditoria/2. Explotación/Vulnerabilidades/Prototype Pollution.md",
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/2. Fases Auditoria/2. Explotación/Vulnerabilidades/Race Conditions - Condiciones de carrera.md",
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/2. Fases Auditoria/2. Explotación/Vulnerabilidades/RCE - (Remote Command Execution).md",
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/2. Fases Auditoria/2. Explotación/Vulnerabilidades/SCF File Attacks - (Shell Command File).md",
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/2. Fases Auditoria/2. Explotación/Vulnerabilidades/Session Puzzling - Session Fixation - Session Variable Overloading.md",
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/2. Fases Auditoria/2. Explotación/Vulnerabilidades/ShellShock.md",
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/2. Fases Auditoria/2. Explotación/Vulnerabilidades/SQLI - (Inyecciones SQL).md",
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/2. Fases Auditoria/2. Explotación/Vulnerabilidades/SSTI - (Server-Side Template Injection).md",
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/2. Fases Auditoria/2. Explotación/Vulnerabilidades/Type Juggling - (Cambio de tipo).md",
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/2. Fases Auditoria/2. Explotación/Vulnerabilidades/XSS  - ( Cross-Site Scripting ).md",
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/2. Fases Auditoria/2. Explotación/Vulnerabilidades/XXE - (XML External Entity Injection ).md",
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/2. Fases Auditoria/3. Escalada de Privilegios/Abusando de privilegios SUID.md",
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/2. Fases Auditoria/3. Escalada de Privilegios/Abuso de binarios específicos.md",
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/2. Fases Auditoria/3. Escalada de Privilegios/Abuso de grupos de usuario especiales.md",
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/2. Fases Auditoria/3. Escalada de Privilegios/Abuso de permisos incorrectamente implementados.md",
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/2. Fases Auditoria/3. Escalada de Privilegios/Abuso de privilegios a nivel de Sudoers.md",
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/2. Fases Auditoria/3. Escalada de Privilegios/Abuso de privilegios de escritura en DB's.md",
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/2. Fases Auditoria/3. Escalada de Privilegios/Abuso de rsync.md",
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/2. Fases Auditoria/3. Escalada de Privilegios/Abuso de servicios internos del sistema.md",
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/2. Fases Auditoria/3. Escalada de Privilegios/Abuso de sistema de archivos montados.md",
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/2. Fases Auditoria/3. Escalada de Privilegios/Análisis de archivos .jar.md",
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/2. Fases Auditoria/3. Escalada de Privilegios/Base de datos de contraseñas con Keepass.md",
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/2. Fases Auditoria/3. Escalada de Privilegios/Crack GPG messages - ( GNU Privacy  Guard ).md",
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/2. Fases Auditoria/3. Escalada de Privilegios/Detección y explotación de Capabilities.md",
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/2. Fases Auditoria/3. Escalada de Privilegios/Detección y explotación de tareas Cron.md",
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/2. Fases Auditoria/3. Escalada de Privilegios/Docker Breakout.md",
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/2. Fases Auditoria/3. Escalada de Privilegios/Explotación del Kernel.md",
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/2. Fases Auditoria/3. Escalada de Privilegios/Keepass master key crack .dmp.md",
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/2. Fases Auditoria/3. Escalada de Privilegios/PATH Hijacking.md",
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/2. Fases Auditoria/3. Escalada de Privilegios/Python Library Hijacking.md",
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/2. Fases Auditoria/3. Escalada de Privilegios/Secuestro de la biblioteca de objetos compartidos enlazados dinámicamente.md",
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/2. Fases Auditoria/3. Escalada de Privilegios/Sesiones de firefox.md",
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/2. Fases Auditoria/3. Escalada de Privilegios/TTY Hijacking.md",
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/2. Fases Auditoria/4. Redacción de Informe Profesional/Redacción de reporte profesional en LaTeX.md",
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/3. Sistemas Operativos/Linux/Atajos de consola.md",
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/3. Sistemas Operativos/Linux/Commands.md",
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/3. Sistemas Operativos/Windows/Active Directory/Reconocimiento/Active Directory Recon.md",
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/3. Sistemas Operativos/Windows/Active Directory/Active Directory.md",
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/3. Sistemas Operativos/Windows/Privilege Scalation/Abusando de SeImpersonatePrivilege.md",
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/3. Sistemas Operativos/Windows/Privilege Scalation/Abuso de AllowedToDelegate.md",
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/3. Sistemas Operativos/Windows/Privilege Scalation/Abuso de AlwaysInstallElevated.md",
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/3. Sistemas Operativos/Windows/Privilege Scalation/Abuso de binarios específicos.md",
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/3. Sistemas Operativos/Windows/Privilege Scalation/Abuso de grupo 'Server Operators'.md",
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/3. Sistemas Operativos/Windows/Privilege Scalation/Abuso de SeBackupPrivilege.md",
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/3. Sistemas Operativos/Windows/Privilege Scalation/Intentos Básicos.md",
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/3. Sistemas Operativos/Windows/Privilege Scalation/Print Spooler (PrintNightmare).md",
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/3. Sistemas Operativos/Windows/Vulnerabilidades/Kerberos Vulns/AS-REP Roast Attack.md",
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/3. Sistemas Operativos/Windows/Vulnerabilidades/Kerberos Vulns/Diamond Ticket Attack.md",
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/3. Sistemas Operativos/Windows/Vulnerabilidades/Kerberos Vulns/Golden Ticket Attack.md",
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/3. Sistemas Operativos/Windows/Vulnerabilidades/Kerberos Vulns/Kerberoasting Attack.md",
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/3. Sistemas Operativos/Windows/Vulnerabilidades/Kerberos Vulns/Silver Ticket Attack.md",
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/3. Sistemas Operativos/Windows/Vulnerabilidades/Abuso de ForceChangePassword.md",
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/3. Sistemas Operativos/Windows/Vulnerabilidades/Abuso de ReadGMSAPassword.md",
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/3. Sistemas Operativos/Windows/Vulnerabilidades/DC Sync Attack.md",
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/3. Sistemas Operativos/Windows/Vulnerabilidades/DNS Record Injection.md",
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/3. Sistemas Operativos/Windows/Vulnerabilidades/ICMP Reverse Shell (PowerShell).md",
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/3. Sistemas Operativos/Windows/Vulnerabilidades/Lsass dump analisis.md",
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/3. Sistemas Operativos/Windows/Vulnerabilidades/Pass The Hash.md",
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/3. Sistemas Operativos/Windows/Vulnerabilidades/Resource-based Constraint Delegation.md",
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/3. Sistemas Operativos/Windows/Commands.md",
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/3. Sistemas Operativos/Windows/Recopilación de información del sistema..md",
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/4. Avanzado/Buffer Overflow/Buffer Overflow Escenarios/Buffer Overflow básico x86.md",
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/4. Avanzado/Buffer Overflow/Buffer Overflow Escenarios/Buffer Overflow x86 linux.md",
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/4. Avanzado/Buffer Overflow/Buffer Overflow.md",
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/4. Avanzado/Buffer Overflow/Shellcodes.md",
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/4. Avanzado/iptables/Añadir tráfico con nuestra máquina.md",
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/4. Avanzado/pivoting/Pivoting.md",
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/Herramientas/⚒ Herramientas ⚒.md",
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/Herramientas/Burpsuite.md",
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/Herramientas/Debugging con pdb en Python.md",
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/Herramientas/Metasploit.md",
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/Herramientas/Nmap.md",
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/Herramientas/Postman.md",
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/Herramientas/SQLMap.md",
+    "Notes/5. Tecnologías/Lenguajes y Tools/Python/Modules/Conexiones de red y protocolos.md",
+    "Notes/5. Tecnologías/Lenguajes y Tools/Python/Modules/Date-Time.md",
+    "Notes/5. Tecnologías/Lenguajes y Tools/Python/Modules/Expresiones regulares.md",
+    "Notes/5. Tecnologías/Lenguajes y Tools/Python/Modules/Librería OS y SYS.md",
+    "Notes/5. Tecnologías/Lenguajes y Tools/Python/Modules/Librería threading y multiprocessing.md",
+    "Notes/5. Tecnologías/Lenguajes y Tools/Python/Modules/Manejo de archivos y directorios.md",
+    "Notes/5. Tecnologías/Lenguajes y Tools/Python/Modules/Requests y URLlib3.md",
+    "Notes/5. Tecnologías/Lenguajes y Tools/Python/Crear un proyecto en PyPI.md",
+    "Notes/5. Tecnologías/Lenguajes y Tools/Python/Organización de código en módulos.md",
+    "Notes/5. Tecnologías/Lenguajes y Tools/Python/POO en Python.md",
+    "Notes/5. Tecnologías/Lenguajes y Tools/Python/Python.md",
+    "Notes/5. Tecnologías/Lenguajes y Tools/SQL/MSSQL.md",
+    "Notes/5. Tecnologías/Lenguajes y Tools/SQL/MySQL.md",
+    "Notes/5. Tecnologías/Lenguajes y Tools/SQL/PostgreSQL.md",
+    "Notes/5. Tecnologías/Lenguajes y Tools/SQL/SQL.md",
+    "Notes/5. Tecnologías/Lenguajes y Tools/Docker.md",
+    "Notes/5. Tecnologías/Lenguajes y Tools/Git.md",
+    "Notes/5. Tecnologías/Lenguajes y Tools/MongoDB.md",
+    "Notes/5. Tecnologías/Lenguajes y Tools/PHP.md",
+    "Notes/5. Tecnologías/Lenguajes y Tools/Sqlite3.md",
+    "Notes/5. Tecnologías/Services/Kerberos/Kerberos.md",
+    "Notes/5. Tecnologías/Services/Kerberos/KERBEROS_AUTHETICATION_FLOW.md",
+    "Notes/5. Tecnologías/Batch Scripting.md",
+    "Notes/5. Tecnologías/Scripting en Bash.md",
+    "lib/media/elf_format.png",
+    "lib/media/readelf_elf_header.png",
+    "lib/media/readelf_program_table.png",
+    "lib/media/readelf_section_table.png",
+    "lib/media/pe_format.png",
+    "lib/media/ram_image.png",
+    "lib/media/bus_image.png",
+    "lib/media/address_bus.png",
+    "lib/media/control_bus.png",
+    "lib/media/clock_bus.png",
+    "lib/media/data_bus.png",
+    "lib/media/simm_image.png",
+    "lib/media/dimm_image.png",
+    "lib/media/dual_channel_image.png",
+    "lib/media/pre_ddr.png",
+    "lib/media/ddr_image.png",
+    "lib/media/virtual_memory.png",
+    "lib/media/cybersecurity_landscape.png",
+    "lib/media/apis_tools_and_recommendations.png",
+    "lib/media/governance_benefits_apisec.png",
+    "lib/media/desing_guide_example.png",
+    "lib/media/api_testing.png",
+    "lib/media/monitoring.png",
+    "lib/media/api_discovery.png",
+    "lib/media/limitations_of_monitoring.png",
+    "lib/media/choosign_deployment_strategy_sumologic.png",
+    "lib/media/hosted_collector_overview.png",
+    "lib/media/install_collectors.png",
+    "lib/media/open_telemetry_workout.png",
+    "lib/media/sources_for_installed_collectors.png",
+    "lib/media/sources_for_hosted_collectors.png",
+    "lib/media/5_firts_meta_fields.png",
+    "lib/media/more_metadata_fields.png",
+    "lib/media/ingest_budgets_to_collector.png",
+    "lib/media/data_tiers.png",
+    "lib/media/enterprise_data_.png",
+    "lib/media/why_metrics_are_important.png",
+    "lib/media/logs_metrics.png",
+    "lib/media/observability_pilars.png",
+    "lib/media/transaction_traces_sumo_logic.png",
+    "lib/media/tracing_important.png",
+    "lib/media/monitoring_sumo_logic.png",
+    "lib/media/alert_response.png",
+    "lib/media/without_alert_grouping.png",
+    "lib/media/alert_grouping.png",
+    "lib/media/network_setup_malware_analysis.png",
+    "lib/media/network_adapter_settings_vmware.png",
+    "lib/media/spf_protocol.png",
+    "lib/media/dkim_protocol.png",
+    "lib/media/dmarc_standard.png",
+    "lib/media/iot_attack_tree.png",
+    "lib/media/iot-methodology_pentesting.png",
+    "lib/media/iot_fccid_example.png",
+    "lib/media/foward_proxy.png",
+    "lib/media/reverse_proxy.png",
+    "lib/media/common_network_types.png",
+    "lib/media/book_network_types.png",
+    "lib/media/topology_connections.png",
+    "lib/media/nodes_topology.png",
+    "lib/media/topology_types.png",
+    "lib/media/point-to-piont_topology.png",
+    "lib/media/bus_topology.png",
+    "lib/media/star_topology.png",
+    "lib/media/ring_topology.png",
+    "lib/media/mesh_topology.png",
+    "lib/media/tree_topology.png",
+    "lib/media/hybrid_topology.png",
+    "lib/media/daisy_chain_topology.png",
+    "lib/media/osi_tcp_ip_layers.png",
+    "lib/media/osi_modl_and_tcp-ip_model.png",
+    "lib/media/packet_transfers.png",
+    "lib/media/packet_transfer.png",
+    "lib/media/network_clases.png",
+    "lib/media/subnetmask.png",
+    "lib/media/first_addresses_table.png",
+    "lib/media/last_addresses_table.png",
+    "lib/media/basic_connection.png",
+    "lib/media/pasted-image-20230410072747.png",
+    "lib/media/pasted-image-20230410073756.png",
+    "lib/media/pasted-image-20230410073928.png",
+    "lib/media/pasted-image-20230410101337.png",
+    "lib/media/pasted-image-20230410112448.png",
+    "lib/media/machetenetmask.png",
+    "lib/media/pasted-image-20230410113952.png",
+    "lib/media/bits_de_un_byte.png",
+    "lib/media/andoperation.png",
+    "lib/media/firewall.png",
+    "lib/media/firewalllenght.png",
+    "lib/media/synackrst.png",
+    "lib/media/firewallips.png",
+    "lib/media/firewallframentation.png",
+    "lib/media/threewayhandshake.png",
+    "lib/media/lan_connection_arp.png",
+    "lib/media/arp_spoofing_example.png",
+    "lib/media/dumpeo_de_trafico.png",
+    "lib/media/rts.png",
+    "lib/media/cts.png",
+    "lib/media/cts_time_ws.png",
+    "lib/media/cts_time_ts.png",
+    "lib/media/ghex_cts.png",
+    "lib/media/cts_ws_time.png",
+    "lib/media/ghex_edit_time.png",
+    "lib/media/rce_with_drupal.png",
+    "lib/media/add_php_to_drupal.png",
+    "lib/media/edit_templates_rce_joomla.png",
+    "lib/media/select_template_rce_joomla.png",
+    "lib/media/inject_code_rce_joomla.png",
+    "lib/media/rce_joomla.png",
+    "lib/media/rce_wordpress.png",
+    "lib/media/rce_wordpress_success.png",
+    "lib/media/db_version_whois_response.png",
+    "lib/media/proxy.png.png",
+    "lib/media/reverseshell.png",
+    "lib/media/bindshell.png",
+    "lib/media/allow_methods.png",
+    "lib/media/automated_scan_owap_zap.png",
+    "lib/media/import_openapi_definition_zap.png",
+    "lib/media/manual_explore_zap.png",
+    "lib/media/include_in_context_zap.png",
+    "lib/media/alerts_zap.png",
+    "lib/media/mitmweb.png",
+    "lib/media/editor_swagger.png",
+    "lib/media/import_yml_postman.png",
+    "lib/media/devtools_network.png",
+    "lib/media/devtools_export_requests.png",
+    "lib/media/cbc.png",
+    "lib/media/regex_crlf_injection.png",
+    "lib/media/changepassword.png",
+    "lib/media/changepasswordcsrf.png",
+    "lib/media/get_csrf.png",
+    "lib/media/cssi_blue.png",
+    "lib/media/cssi_green.png",
+    "lib/media/cssi_codigo_fuente.png",
+    "lib/media/cssi_css_props.png",
+    "lib/media/cssi_xss.png",
+    "lib/media/cssi_codigo_fuente_2.png",
+    "lib/media/graphql.png",
+    "lib/media/livemode_graphql-kit.png",
+    "lib/media/possible_login_fix_h2_consoe.png",
+    "lib/media/jwt_strcture.png",
+    "lib/media/jwt.io.png",
+    "lib/media/ssti_example.png",
+    "lib/media/ssti_example2.png",
+    "lib/media/xml.png",
+    "lib/media/pasted-image-20230302212154.png",
+    "lib/media/pasted-image-20230215173659.png",
+    "lib/media/hola_mundo_ensamblador.png",
+    "lib/media/respawn_bash_ensamblador.png",
+    "lib/media/enviroment_pivoting_3_machines.png",
+    "lib/media/pivoting_4_machines.png",
+    "lib/media/interceptarrespuestassiempreburp.png",
+    "lib/media/reglaspararemplazarvaloresburp.png",
+    "lib/media/scopeconfigburp.png",
+    "lib/media/proxyhistoriajustscope.png",
+    "lib/media/extensionsburp.png",
+    "lib/media/create_collection_postman.png",
+    "lib/media/add_enpoint_postman.png",
+    "lib/media/add_variables_postman.png",
+    "lib/media/authorization_token_postman.png",
+    "lib/media/postman_proxy.png",
+    "lib/media/postman_proxy_capture.png",
+    "lib/media/threading_python.png",
+    "lib/media/multiprocessing_python.png",
+    "lib/media/multiprocessing_python_subprocesses.png",
+    "lib/media/pasted-image-20230215165210.png",
+    "lib/media/pasted-image-20230403162341.png",
+    "lib/media/pasted-image-20230403162759.png",
+    "lib/media/pasted-image-20230403163235.png",
+    "lib/media/pasted-image-20230403163410.png",
+    "lib/media/pasted-image-20230403163806.png",
+    "lib/media/pasted-image-20230403164237.png",
+    "lib/media/pasted-image-20230404130357.png",
+    "lib/media/pasted-image-20230406111340.png",
+    "lib/media/pasted-image-20230406112807.png",
+    "lib/media/pasted-image-20230406112516.png",
+    "lib/media/pasted-image-20230406153509.png",
+    "lib/media/pasted-image-20230406154836.png",
+    "lib/media/pasted-image-20230407170142.png",
+    "lib/media/pasted-image-20230407165626.png",
+    "lib/media/pasted-image-20230215163522.png",
+    "lib/media/keberos_authentication_flow.png",
+    "lib/scripts/graph-wasm.wasm",
+    "lib/fonts/94f2f163d4b698242fef.otf",
+    "lib/fonts/72505e6a122c6acd5471.woff2",
+    "lib/fonts/2d5198822ab091ce4305.woff2",
+    "lib/fonts/c8ba52b05a9ef10f4758.woff2",
+    "lib/fonts/cb10ffd7684cd9836a05.woff2",
+    "lib/fonts/b5f0f109bc88052d4000.woff2",
+    "lib/fonts/cbe0ae49c52c920fd563.woff2",
+    "lib/fonts/535a6cf662596b3bd6a6.woff2",
+    "lib/fonts/70cc7ff27245e82ad414.ttf",
+    "lib/fonts/454577c22304619db035.ttf",
+    "lib/fonts/52ac8f3034507f1d9e53.ttf",
+    "lib/fonts/05b618077343fbbd92b7.ttf",
+    "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
+    "lib/media/874d8b8e340f75575caa.svg",
+    "lib/html/file-tree.html",
+    "lib/scripts/webpage.js",
+    "lib/scripts/graph-view.js",
+    "lib/scripts/graph-wasm.js",
+    "lib/scripts/graph-render-worker.js",
+    "lib/scripts/tinycolor.js",
+    "lib/scripts/pixi.js",
+    "lib/scripts/minisearch.js",
+    "lib/media/favicon.png",
+    "lib/scripts/graph-data.js",
+    "lib/styles/obsidian.css",
+    "lib/styles/theme.css",
+    "lib/styles/global-variable-styles.css",
+    "lib/styles/main-styles.css"
+  ],
+  "mainDependencies": [
+    "lib/scripts/graph-wasm.wasm",
+    "lib/fonts/94f2f163d4b698242fef.otf",
+    "lib/fonts/72505e6a122c6acd5471.woff2",
+    "lib/fonts/2d5198822ab091ce4305.woff2",
+    "lib/fonts/c8ba52b05a9ef10f4758.woff2",
+    "lib/fonts/cb10ffd7684cd9836a05.woff2",
+    "lib/fonts/b5f0f109bc88052d4000.woff2",
+    "lib/fonts/cbe0ae49c52c920fd563.woff2",
+    "lib/fonts/535a6cf662596b3bd6a6.woff2",
+    "lib/fonts/70cc7ff27245e82ad414.ttf",
+    "lib/fonts/454577c22304619db035.ttf",
+    "lib/fonts/52ac8f3034507f1d9e53.ttf",
+    "lib/fonts/05b618077343fbbd92b7.ttf",
+    "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
+    "lib/media/874d8b8e340f75575caa.svg",
+    "lib/html/file-tree.html",
+    "lib/scripts/webpage.js",
+    "lib/scripts/graph-view.js",
+    "lib/scripts/graph-wasm.js",
+    "lib/scripts/graph-render-worker.js",
+    "lib/scripts/tinycolor.js",
+    "lib/scripts/pixi.js",
+    "lib/scripts/minisearch.js",
+    "lib/media/favicon.png",
+    "lib/scripts/graph-data.js",
+    "lib/styles/obsidian.css",
+    "lib/styles/theme.css",
+    "lib/styles/global-variable-styles.css",
+    "lib/styles/main-styles.css"
+  ],
+  "fileInfo": {
+    "Notes/3. Sistema/Formatos Ejecutables/Linux - Unix/Graficos/ELF_Format.draw.md": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 247371,
+      "exportedPath": "notes/3.-sistema/formatos-ejecutables/linux-unix/graficos/elf_format.draw.html",
+      "dependencies": []
+    },
+    "Notes/3. Sistema/Formatos Ejecutables/Linux - Unix/Executable and Linkable Format - Formato ELF.md": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 10400,
+      "exportedPath": "notes/3.-sistema/formatos-ejecutables/linux-unix/executable-and-linkable-format-formato-elf.html",
+      "dependencies": [
+        "lib/media/elf_format.png",
+        "lib/media/readelf_elf_header.png",
+        "lib/media/readelf_program_table.png",
+        "lib/media/readelf_section_table.png",
+        "lib/media/readelf_section_table.png"
+      ]
+    },
+    "Notes/3. Sistema/Formatos Ejecutables/Windows/Graficos/PE_Format.draw.md": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 41371,
+      "exportedPath": "notes/3.-sistema/formatos-ejecutables/windows/graficos/pe_format.draw.html",
+      "dependencies": []
+    },
+    "Notes/3. Sistema/Formatos Ejecutables/Windows/Portable Executable - Formato PE.md": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 12061,
+      "exportedPath": "notes/3.-sistema/formatos-ejecutables/windows/portable-executable-formato-pe.html",
+      "dependencies": [
+        "lib/media/pe_format.png"
+      ]
+    },
+    "Notes/3. Sistema/Malware/Malware.md": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 5119,
+      "exportedPath": "notes/3.-sistema/malware/malware.html",
+      "dependencies": []
+    },
+    "Notes/3. Sistema/Memoria/Memorias/Entendiendo la memoria RAM.md": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 7494,
+      "exportedPath": "notes/3.-sistema/memoria/memorias/entendiendo-la-memoria-ram.html",
+      "dependencies": [
+        "lib/media/ram_image.png",
+        "lib/media/bus_image.png",
+        "lib/media/address_bus.png",
+        "lib/media/control_bus.png",
+        "lib/media/clock_bus.png",
+        "lib/media/data_bus.png",
+        "lib/media/simm_image.png",
+        "lib/media/dimm_image.png",
+        "lib/media/dual_channel_image.png",
+        "lib/media/pre_ddr.png",
+        "lib/media/ddr_image.png"
+      ]
+    },
+    "Notes/3. Sistema/Memoria/Gestión de Memoria.md": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 6277,
+      "exportedPath": "notes/3.-sistema/memoria/gestión-de-memoria.html",
+      "dependencies": [
+        "lib/media/virtual_memory.png"
+      ]
+    },
+    "Notes/3. Sistema/Named Pipes/Named and Unnamed Pipes.md": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 2465,
+      "exportedPath": "notes/3.-sistema/named-pipes/named-and-unnamed-pipes.html",
+      "dependencies": []
+    },
+    "Notes/4. Cybersecurity/BlueTeam/API Sec/API - (Application Programming Interfaces).md": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 1038,
+      "exportedPath": "notes/4.-cybersecurity/blueteam/api-sec/api-(application-programming-interfaces).html",
+      "dependencies": [
+        "lib/media/cybersecurity_landscape.png",
+        "lib/media/apis_tools_and_recommendations.png"
+      ]
+    },
+    "Notes/4. Cybersecurity/BlueTeam/API Sec/Los 3 pilares - (API Sec).md": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 7371,
+      "exportedPath": "notes/4.-cybersecurity/blueteam/api-sec/los-3-pilares-(api-sec).html",
+      "dependencies": [
+        "lib/media/governance_benefits_apisec.png",
+        "lib/media/desing_guide_example.png",
+        "lib/media/api_testing.png",
+        "lib/media/monitoring.png",
+        "lib/media/api_discovery.png",
+        "lib/media/limitations_of_monitoring.png"
+      ]
+    },
+    "Notes/4. Cybersecurity/BlueTeam/API Sec/Mejores prácticas.md": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 5296,
+      "exportedPath": "notes/4.-cybersecurity/blueteam/api-sec/mejores-prácticas.html",
+      "dependencies": []
+    },
+    "Notes/4. Cybersecurity/BlueTeam/API Sec/OWASP Top 10 API.md": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 11753,
+      "exportedPath": "notes/4.-cybersecurity/blueteam/api-sec/owasp-top-10-api.html",
+      "dependencies": []
+    },
+    "Notes/4. Cybersecurity/BlueTeam/Defensive Tools/Falcon CrowdStrike/Falcon CrowdStrike.md": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 1340,
+      "exportedPath": "notes/4.-cybersecurity/blueteam/defensive-tools/falcon-crowdstrike/falcon-crowdstrike.html",
+      "dependencies": []
+    },
+    "Notes/4. Cybersecurity/BlueTeam/Defensive Tools/Sumo Logic/Create a collector (Linux)/Creating my first collector.md": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 3053,
+      "exportedPath": "notes/4.-cybersecurity/blueteam/defensive-tools/sumo-logic/create-a-collector-(linux)/creating-my-first-collector.html",
+      "dependencies": []
+    },
+    "Notes/4. Cybersecurity/BlueTeam/Defensive Tools/Sumo Logic/1. Sumo Logic & Estrategía de Recolección de datos.md": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 4571,
+      "exportedPath": "notes/4.-cybersecurity/blueteam/defensive-tools/sumo-logic/1.-sumo-logic-&-estrategía-de-recolección-de-datos.html",
+      "dependencies": [
+        "lib/media/choosign_deployment_strategy_sumologic.png"
+      ]
+    },
+    "Notes/4. Cybersecurity/BlueTeam/Defensive Tools/Sumo Logic/2. Collectors, Sources & Metadata.md": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 4741,
+      "exportedPath": "notes/4.-cybersecurity/blueteam/defensive-tools/sumo-logic/2.-collectors,-sources-&-metadata.html",
+      "dependencies": [
+        "lib/media/hosted_collector_overview.png",
+        "lib/media/install_collectors.png",
+        "lib/media/open_telemetry_workout.png",
+        "lib/media/sources_for_installed_collectors.png",
+        "lib/media/sources_for_hosted_collectors.png",
+        "lib/media/5_firts_meta_fields.png",
+        "lib/media/more_metadata_fields.png"
+      ]
+    },
+    "Notes/4. Cybersecurity/BlueTeam/Defensive Tools/Sumo Logic/3. Ingestión de Datos y Niveles de Datos.md": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 5242,
+      "exportedPath": "notes/4.-cybersecurity/blueteam/defensive-tools/sumo-logic/3.-ingestión-de-datos-y-niveles-de-datos.html",
+      "dependencies": [
+        "lib/media/ingest_budgets_to_collector.png",
+        "lib/media/data_tiers.png",
+        "lib/media/enterprise_data_.png"
+      ]
+    },
+    "Notes/4. Cybersecurity/BlueTeam/Defensive Tools/Sumo Logic/4. Data Search (Métricas, Tracing).md": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 6931,
+      "exportedPath": "notes/4.-cybersecurity/blueteam/defensive-tools/sumo-logic/4.-data-search-(métricas,-tracing).html",
+      "dependencies": [
+        "lib/media/why_metrics_are_important.png",
+        "lib/media/logs_metrics.png",
+        "lib/media/observability_pilars.png",
+        "lib/media/transaction_traces_sumo_logic.png",
+        "lib/media/tracing_important.png",
+        "lib/media/monitoring_sumo_logic.png"
+      ]
+    },
+    "Notes/4. Cybersecurity/BlueTeam/Defensive Tools/Sumo Logic/5. Alert Response.md": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 8980,
+      "exportedPath": "notes/4.-cybersecurity/blueteam/defensive-tools/sumo-logic/5.-alert-response.html",
+      "dependencies": [
+        "lib/media/alert_response.png",
+        "lib/media/without_alert_grouping.png",
+        "lib/media/alert_grouping.png"
+      ]
+    },
+    "Notes/4. Cybersecurity/BlueTeam/Malware Analysis/PDF/Malware analysis in PDF's.md": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 5904,
+      "exportedPath": "notes/4.-cybersecurity/blueteam/malware-analysis/pdf/malware-analysis-in-pdf's.html",
+      "dependencies": []
+    },
+    "Notes/4. Cybersecurity/BlueTeam/Malware Analysis/Sistem/Análisis de Malware.md": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 2893,
+      "exportedPath": "notes/4.-cybersecurity/blueteam/malware-analysis/sistem/análisis-de-malware.html",
+      "dependencies": []
+    },
+    "Notes/4. Cybersecurity/BlueTeam/Malware Analysis/Sistem/Setup Analysis Enviroment.md": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 9615,
+      "exportedPath": "notes/4.-cybersecurity/blueteam/malware-analysis/sistem/setup-analysis-enviroment.html",
+      "dependencies": [
+        "lib/media/network_setup_malware_analysis.png",
+        "lib/media/network_adapter_settings_vmware.png"
+      ]
+    },
+    "Notes/4. Cybersecurity/BlueTeam/Phishing/Autenticación de Correos Electrónicos.md": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 6338,
+      "exportedPath": "notes/4.-cybersecurity/blueteam/phishing/autenticación-de-correos-electrónicos.html",
+      "dependencies": [
+        "lib/media/spf_protocol.png",
+        "lib/media/dkim_protocol.png",
+        "lib/media/dmarc_standard.png"
+      ]
+    },
+    "Notes/4. Cybersecurity/BlueTeam/Phishing/Phishing Analysis.md": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 3966,
+      "exportedPath": "notes/4.-cybersecurity/blueteam/phishing/phishing-analysis.html",
+      "dependencies": []
+    },
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Entorno/Personalización de Entorno de Hacking.md": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 37516,
+      "exportedPath": "notes/4.-cybersecurity/redteam/pentesting/entorno/personalización-de-entorno-de-hacking.html",
+      "dependencies": []
+    },
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/IoT/1. Threat Modeling.md": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 7296,
+      "exportedPath": "notes/4.-cybersecurity/redteam/pentesting/iot/1.-threat-modeling.html",
+      "dependencies": [
+        "lib/media/iot_attack_tree.png"
+      ]
+    },
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/IoT/2. Security Testing Methodology.md": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 3238,
+      "exportedPath": "notes/4.-cybersecurity/redteam/pentesting/iot/2.-security-testing-methodology.html",
+      "dependencies": [
+        "lib/media/iot-methodology_pentesting.png",
+        "lib/media/iot_fccid_example.png"
+      ]
+    },
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Redes/Basico/Redes/1. Structure/Proxies.md": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 4581,
+      "exportedPath": "notes/4.-cybersecurity/redteam/pentesting/redes/basico/redes/1.-structure/proxies.html",
+      "dependencies": [
+        "lib/media/foward_proxy.png",
+        "lib/media/reverse_proxy.png"
+      ]
+    },
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Redes/Basico/Redes/1. Structure/Tipos de Redes.md": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 5122,
+      "exportedPath": "notes/4.-cybersecurity/redteam/pentesting/redes/basico/redes/1.-structure/tipos-de-redes.html",
+      "dependencies": [
+        "lib/media/common_network_types.png",
+        "lib/media/book_network_types.png"
+      ]
+    },
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Redes/Basico/Redes/1. Structure/Topologías de redes.md": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 8364,
+      "exportedPath": "notes/4.-cybersecurity/redteam/pentesting/redes/basico/redes/1.-structure/topologías-de-redes.html",
+      "dependencies": [
+        "lib/media/topology_connections.png",
+        "lib/media/nodes_topology.png",
+        "lib/media/topology_types.png",
+        "lib/media/point-to-piont_topology.png",
+        "lib/media/bus_topology.png",
+        "lib/media/star_topology.png",
+        "lib/media/ring_topology.png",
+        "lib/media/mesh_topology.png",
+        "lib/media/tree_topology.png",
+        "lib/media/hybrid_topology.png",
+        "lib/media/daisy_chain_topology.png"
+      ]
+    },
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Redes/Basico/Redes/2. Workflow/Network Models/OSI Model/Modelo OSI - OSI Model.md": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 3420,
+      "exportedPath": "notes/4.-cybersecurity/redteam/pentesting/redes/basico/redes/2.-workflow/network-models/osi-model/modelo-osi-osi-model.html",
+      "dependencies": []
+    },
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Redes/Basico/Redes/2. Workflow/Network Models/OSI Model/OSI Model.excalidraw.md": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 19024,
+      "exportedPath": "notes/4.-cybersecurity/redteam/pentesting/redes/basico/redes/2.-workflow/network-models/osi-model/osi-model.excalidraw.html",
+      "dependencies": []
+    },
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Redes/Basico/Redes/2. Workflow/Network Models/OSI Model/osimodel_example.excalidraw.md": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 132653,
+      "exportedPath": "notes/4.-cybersecurity/redteam/pentesting/redes/basico/redes/2.-workflow/network-models/osi-model/osimodel_example.excalidraw.html",
+      "dependencies": []
+    },
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Redes/Basico/Redes/2. Workflow/Network Models/TCP-IP Model/Modelo TCP-IP - TCP-IP Model.md": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 2952,
+      "exportedPath": "notes/4.-cybersecurity/redteam/pentesting/redes/basico/redes/2.-workflow/network-models/tcp-ip-model/modelo-tcp-ip-tcp-ip-model.html",
+      "dependencies": [
+        "lib/media/osi_tcp_ip_layers.png"
+      ]
+    },
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Redes/Basico/Redes/2. Workflow/Network Models/TCP-IP Model/TCP-IP Model.excalidraw.md": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 13944,
+      "exportedPath": "notes/4.-cybersecurity/redteam/pentesting/redes/basico/redes/2.-workflow/network-models/tcp-ip-model/tcp-ip-model.excalidraw.html",
+      "dependencies": []
+    },
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Redes/Basico/Redes/2. Workflow/Network Models/Modelos de redes.md": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 4125,
+      "exportedPath": "notes/4.-cybersecurity/redteam/pentesting/redes/basico/redes/2.-workflow/network-models/modelos-de-redes.html",
+      "dependencies": [
+        "lib/media/osi_modl_and_tcp-ip_model.png",
+        "lib/media/packet_transfers.png",
+        "lib/media/packet_transfer.png"
+      ]
+    },
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Redes/Basico/Redes/2. Workflow/Network Models/OSI vs TPC-IP Model.excalidraw.md": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 36859,
+      "exportedPath": "notes/4.-cybersecurity/redteam/pentesting/redes/basico/redes/2.-workflow/network-models/osi-vs-tpc-ip-model.excalidraw.html",
+      "dependencies": []
+    },
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Redes/Basico/Redes/3. Addressing/1. Network Layer - OSI.md": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 2117,
+      "exportedPath": "notes/4.-cybersecurity/redteam/pentesting/redes/basico/redes/3.-addressing/1.-network-layer-osi.html",
+      "dependencies": []
+    },
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Redes/Basico/Redes/3. Addressing/2. IPv4 Addresses - Direcciones IPv4.md": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 7637,
+      "exportedPath": "notes/4.-cybersecurity/redteam/pentesting/redes/basico/redes/3.-addressing/2.-ipv4-addresses-direcciones-ipv4.html",
+      "dependencies": [
+        "lib/media/network_clases.png",
+        "lib/media/subnetmask.png",
+        "lib/media/first_addresses_table.png",
+        "lib/media/last_addresses_table.png"
+      ]
+    },
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Redes/Basico/Redes/3. Addressing/3. Subneting - Subredes.md": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 41,
+      "exportedPath": "notes/4.-cybersecurity/redteam/pentesting/redes/basico/redes/3.-addressing/3.-subneting-subredes.html",
+      "dependencies": []
+    },
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Redes/Basico/Redes/Conceptos Basicos.md": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 22515,
+      "exportedPath": "notes/4.-cybersecurity/redteam/pentesting/redes/basico/redes/conceptos-basicos.html",
+      "dependencies": [
+        "lib/media/basic_connection.png",
+        "lib/media/pasted-image-20230410072747.png",
+        "lib/media/pasted-image-20230410073756.png",
+        "lib/media/pasted-image-20230410073928.png",
+        "lib/media/pasted-image-20230410101337.png",
+        "lib/media/pasted-image-20230410112448.png",
+        "lib/media/machetenetmask.png",
+        "lib/media/pasted-image-20230410113952.png",
+        "lib/media/bits_de_un_byte.png",
+        "lib/media/andoperation.png",
+        "lib/media/firewall.png",
+        "lib/media/firewalllenght.png",
+        "lib/media/synackrst.png",
+        "lib/media/firewallips.png",
+        "lib/media/firewallframentation.png",
+        "lib/media/threewayhandshake.png"
+      ]
+    },
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Redes/Basico/Conexión.md": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 758,
+      "exportedPath": "notes/4.-cybersecurity/redteam/pentesting/redes/basico/conexión.html",
+      "dependencies": []
+    },
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Redes/Explotación/Ataques/ARP Spoof - Envenenamiento ARP.md": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 1807,
+      "exportedPath": "notes/4.-cybersecurity/redteam/pentesting/redes/explotación/ataques/arp-spoof-envenenamiento-arp.html",
+      "dependencies": [
+        "lib/media/lan_connection_arp.png",
+        "lib/media/arp_spoofing_example.png"
+      ]
+    },
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Redes/Explotación/Ataques/HTTPS Sniffing - SSL Stripping.md": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 3423,
+      "exportedPath": "notes/4.-cybersecurity/redteam/pentesting/redes/explotación/ataques/https-sniffing-ssl-stripping.html",
+      "dependencies": []
+    },
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Redes/Explotación/ConexionesWiFi_draw.md": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 26133,
+      "exportedPath": "notes/4.-cybersecurity/redteam/pentesting/redes/explotación/conexioneswifi_draw.html",
+      "dependencies": []
+    },
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Redes/Explotación/DEAUTHENTICATION_ATTACK_draw.md": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 105459,
+      "exportedPath": "notes/4.-cybersecurity/redteam/pentesting/redes/explotación/deauthentication_attack_draw.html",
+      "dependencies": []
+    },
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Redes/Explotación/Hacking WiFi.md": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 22148,
+      "exportedPath": "notes/4.-cybersecurity/redteam/pentesting/redes/explotación/hacking-wifi.html",
+      "dependencies": [
+        "lib/media/dumpeo_de_trafico.png",
+        "lib/media/rts.png",
+        "lib/media/cts.png",
+        "lib/media/cts_time_ws.png",
+        "lib/media/cts_time_ts.png",
+        "lib/media/ghex_cts.png",
+        "lib/media/cts_ws_time.png",
+        "lib/media/ghex_edit_time.png"
+      ]
+    },
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/1. Basico/Conceptos Generales.md": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 2005,
+      "exportedPath": "notes/4.-cybersecurity/redteam/pentesting/sistemas/1.-basico/conceptos-generales.html",
+      "dependencies": []
+    },
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/1. Basico/Hashes NT, NTLM y NTLMv2.md": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 1865,
+      "exportedPath": "notes/4.-cybersecurity/redteam/pentesting/sistemas/1.-basico/hashes-nt,-ntlm-y-ntlmv2.html",
+      "dependencies": []
+    },
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/1. Basico/Tratamiento de la TTY.md": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 274,
+      "exportedPath": "notes/4.-cybersecurity/redteam/pentesting/sistemas/1.-basico/tratamiento-de-la-tty.html",
+      "dependencies": []
+    },
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/2. Fases Auditoria/1. Reconocimiento/Binarys/Gdb.md": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 644,
+      "exportedPath": "notes/4.-cybersecurity/redteam/pentesting/sistemas/2.-fases-auditoria/1.-reconocimiento/binarys/gdb.html",
+      "dependencies": []
+    },
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/2. Fases Auditoria/1. Reconocimiento/Binarys/Radare2.md": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 1131,
+      "exportedPath": "notes/4.-cybersecurity/redteam/pentesting/sistemas/2.-fases-auditoria/1.-reconocimiento/binarys/radare2.html",
+      "dependencies": []
+    },
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/2. Fases Auditoria/1. Reconocimiento/Gestores De Contenido/Drupal/Enumeración de Drupal.md": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 286,
+      "exportedPath": "notes/4.-cybersecurity/redteam/pentesting/sistemas/2.-fases-auditoria/1.-reconocimiento/gestores-de-contenido/drupal/enumeración-de-drupal.html",
+      "dependencies": []
+    },
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/2. Fases Auditoria/1. Reconocimiento/Gestores De Contenido/Drupal/Ganar acceso con Drupal comprometido.md": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 624,
+      "exportedPath": "notes/4.-cybersecurity/redteam/pentesting/sistemas/2.-fases-auditoria/1.-reconocimiento/gestores-de-contenido/drupal/ganar-acceso-con-drupal-comprometido.html",
+      "dependencies": [
+        "lib/media/rce_with_drupal.png",
+        "lib/media/add_php_to_drupal.png"
+      ]
+    },
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/2. Fases Auditoria/1. Reconocimiento/Gestores De Contenido/Joomla/Joomla.md": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 716,
+      "exportedPath": "notes/4.-cybersecurity/redteam/pentesting/sistemas/2.-fases-auditoria/1.-reconocimiento/gestores-de-contenido/joomla/joomla.html",
+      "dependencies": []
+    },
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/2. Fases Auditoria/1. Reconocimiento/Gestores De Contenido/Joomla/RCE tras acceso a Joomla con cuenta admin.md": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 1319,
+      "exportedPath": "notes/4.-cybersecurity/redteam/pentesting/sistemas/2.-fases-auditoria/1.-reconocimiento/gestores-de-contenido/joomla/rce-tras-acceso-a-joomla-con-cuenta-admin.html",
+      "dependencies": [
+        "lib/media/edit_templates_rce_joomla.png",
+        "lib/media/select_template_rce_joomla.png",
+        "lib/media/inject_code_rce_joomla.png",
+        "lib/media/rce_joomla.png"
+      ]
+    },
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/2. Fases Auditoria/1. Reconocimiento/Gestores De Contenido/Wordpress/Enumeración de Wordpress.md": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 2288,
+      "exportedPath": "notes/4.-cybersecurity/redteam/pentesting/sistemas/2.-fases-auditoria/1.-reconocimiento/gestores-de-contenido/wordpress/enumeración-de-wordpress.html",
+      "dependencies": []
+    },
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/2. Fases Auditoria/1. Reconocimiento/Gestores De Contenido/Wordpress/RCE tras acceso a Wordpress con cuenta admin.md": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 1287,
+      "exportedPath": "notes/4.-cybersecurity/redteam/pentesting/sistemas/2.-fases-auditoria/1.-reconocimiento/gestores-de-contenido/wordpress/rce-tras-acceso-a-wordpress-con-cuenta-admin.html",
+      "dependencies": [
+        "lib/media/rce_wordpress.png",
+        "lib/media/rce_wordpress_success.png"
+      ]
+    },
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/2. Fases Auditoria/1. Reconocimiento/Gestores De Contenido/Magento.md": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 245,
+      "exportedPath": "notes/4.-cybersecurity/redteam/pentesting/sistemas/2.-fases-auditoria/1.-reconocimiento/gestores-de-contenido/magento.html",
+      "dependencies": []
+    },
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/2. Fases Auditoria/1. Reconocimiento/IIS/IIS - (Internet Information Service).md": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 567,
+      "exportedPath": "notes/4.-cybersecurity/redteam/pentesting/sistemas/2.-fases-auditoria/1.-reconocimiento/iis/iis-(internet-information-service).html",
+      "dependencies": []
+    },
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/2. Fases Auditoria/1. Reconocimiento/Nube/Certificados SSL.md": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 2574,
+      "exportedPath": "notes/4.-cybersecurity/redteam/pentesting/sistemas/2.-fases-auditoria/1.-reconocimiento/nube/certificados-ssl.html",
+      "dependencies": []
+    },
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/2. Fases Auditoria/1. Reconocimiento/Nube/Enumerar Amazon Web Service.md": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 1920,
+      "exportedPath": "notes/4.-cybersecurity/redteam/pentesting/sistemas/2.-fases-auditoria/1.-reconocimiento/nube/enumerar-amazon-web-service.html",
+      "dependencies": []
+    },
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/2. Fases Auditoria/1. Reconocimiento/Nube/Git Dorking.md": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 1484,
+      "exportedPath": "notes/4.-cybersecurity/redteam/pentesting/sistemas/2.-fases-auditoria/1.-reconocimiento/nube/git-dorking.html",
+      "dependencies": []
+    },
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/2. Fases Auditoria/1. Reconocimiento/Nube/Google Dorking.md": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 1579,
+      "exportedPath": "notes/4.-cybersecurity/redteam/pentesting/sistemas/2.-fases-auditoria/1.-reconocimiento/nube/google-dorking.html",
+      "dependencies": []
+    },
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/2. Fases Auditoria/1. Reconocimiento/Protocolos/TCP/Enum WHOIS - (Port 43).md": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 1309,
+      "exportedPath": "notes/4.-cybersecurity/redteam/pentesting/sistemas/2.-fases-auditoria/1.-reconocimiento/protocolos/tcp/enum-whois-(port-43).html",
+      "dependencies": [
+        "lib/media/db_version_whois_response.png"
+      ]
+    },
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/2. Fases Auditoria/1. Reconocimiento/Protocolos/TCP/Enum. DNS - (Domain Name Services).md": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 1441,
+      "exportedPath": "notes/4.-cybersecurity/redteam/pentesting/sistemas/2.-fases-auditoria/1.-reconocimiento/protocolos/tcp/enum.-dns-(domain-name-services).html",
+      "dependencies": []
+    },
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/2. Fases Auditoria/1. Reconocimiento/Protocolos/TCP/Enum. GlusterFS.md": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 1509,
+      "exportedPath": "notes/4.-cybersecurity/redteam/pentesting/sistemas/2.-fases-auditoria/1.-reconocimiento/protocolos/tcp/enum.-glusterfs.html",
+      "dependencies": []
+    },
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/2. Fases Auditoria/1. Reconocimiento/Protocolos/TCP/Enum. IMAP - ( Internet Message Access Protocol ).md": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 2126,
+      "exportedPath": "notes/4.-cybersecurity/redteam/pentesting/sistemas/2.-fases-auditoria/1.-reconocimiento/protocolos/tcp/enum.-imap-(-internet-message-access-protocol-).html",
+      "dependencies": []
+    },
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/2. Fases Auditoria/1. Reconocimiento/Protocolos/TCP/Enum. Kerberos.md": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 3553,
+      "exportedPath": "notes/4.-cybersecurity/redteam/pentesting/sistemas/2.-fases-auditoria/1.-reconocimiento/protocolos/tcp/enum.-kerberos.html",
+      "dependencies": []
+    },
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/2. Fases Auditoria/1. Reconocimiento/Protocolos/TCP/Enum. LDAP - ( Lighweight Directory Access Protocol ).md": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 1691,
+      "exportedPath": "notes/4.-cybersecurity/redteam/pentesting/sistemas/2.-fases-auditoria/1.-reconocimiento/protocolos/tcp/enum.-ldap-(-lighweight-directory-access-protocol-).html",
+      "dependencies": []
+    },
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/2. Fases Auditoria/1. Reconocimiento/Protocolos/TCP/Enum. POP3 - ( Post Office Protocol ).md": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 2340,
+      "exportedPath": "notes/4.-cybersecurity/redteam/pentesting/sistemas/2.-fases-auditoria/1.-reconocimiento/protocolos/tcp/enum.-pop3-(-post-office-protocol-).html",
+      "dependencies": []
+    },
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/2. Fases Auditoria/1. Reconocimiento/Protocolos/TCP/Enum. Redis.md": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 1933,
+      "exportedPath": "notes/4.-cybersecurity/redteam/pentesting/sistemas/2.-fases-auditoria/1.-reconocimiento/protocolos/tcp/enum.-redis.html",
+      "dependencies": []
+    },
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/2. Fases Auditoria/1. Reconocimiento/Protocolos/TCP/Enum. RPC - ( Remote Procedure Call ).md": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 1323,
+      "exportedPath": "notes/4.-cybersecurity/redteam/pentesting/sistemas/2.-fases-auditoria/1.-reconocimiento/protocolos/tcp/enum.-rpc-(-remote-procedure-call-).html",
+      "dependencies": []
+    },
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/2. Fases Auditoria/1. Reconocimiento/Protocolos/TCP/Enum. SMB - (Server Message Block).md": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 5662,
+      "exportedPath": "notes/4.-cybersecurity/redteam/pentesting/sistemas/2.-fases-auditoria/1.-reconocimiento/protocolos/tcp/enum.-smb-(server-message-block).html",
+      "dependencies": []
+    },
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/2. Fases Auditoria/1. Reconocimiento/Protocolos/TCP/Enum. WINRM - (Windows Rremote Management).md": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 3237,
+      "exportedPath": "notes/4.-cybersecurity/redteam/pentesting/sistemas/2.-fases-auditoria/1.-reconocimiento/protocolos/tcp/enum.-winrm-(windows-rremote-management).html",
+      "dependencies": []
+    },
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/2. Fases Auditoria/1. Reconocimiento/Protocolos/TCP/Robar data por ICMP.md": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 5736,
+      "exportedPath": "notes/4.-cybersecurity/redteam/pentesting/sistemas/2.-fases-auditoria/1.-reconocimiento/protocolos/tcp/robar-data-por-icmp.html",
+      "dependencies": []
+    },
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/2. Fases Auditoria/1. Reconocimiento/Protocolos/UDP/Enumeración del servicio SNMP.md": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 8369,
+      "exportedPath": "notes/4.-cybersecurity/redteam/pentesting/sistemas/2.-fases-auditoria/1.-reconocimiento/protocolos/udp/enumeración-del-servicio-snmp.html",
+      "dependencies": []
+    },
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/2. Fases Auditoria/1. Reconocimiento/Enumeración y explotación de SQUID Proxies.md": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 6106,
+      "exportedPath": "notes/4.-cybersecurity/redteam/pentesting/sistemas/2.-fases-auditoria/1.-reconocimiento/enumeración-y-explotación-de-squid-proxies.html",
+      "dependencies": [
+        "lib/media/proxy.png.png"
+      ]
+    },
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/2. Fases Auditoria/1. Reconocimiento/Enumeración y explotación de WebDAV.md": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 3681,
+      "exportedPath": "notes/4.-cybersecurity/redteam/pentesting/sistemas/2.-fases-auditoria/1.-reconocimiento/enumeración-y-explotación-de-webdav.html",
+      "dependencies": []
+    },
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/2. Fases Auditoria/1. Reconocimiento/Fase de Reconocimiento.md": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 5966,
+      "exportedPath": "notes/4.-cybersecurity/redteam/pentesting/sistemas/2.-fases-auditoria/1.-reconocimiento/fase-de-reconocimiento.html",
+      "dependencies": []
+    },
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/2. Fases Auditoria/2. Explotación/Conceptos Expotacion/Payloads.md": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 1028,
+      "exportedPath": "notes/4.-cybersecurity/redteam/pentesting/sistemas/2.-fases-auditoria/2.-explotación/conceptos-expotacion/payloads.html",
+      "dependencies": []
+    },
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/2. Fases Auditoria/2. Explotación/Conceptos Expotacion/Reconocimiento a nivel de Sistema.md": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 2606,
+      "exportedPath": "notes/4.-cybersecurity/redteam/pentesting/sistemas/2.-fases-auditoria/2.-explotación/conceptos-expotacion/reconocimiento-a-nivel-de-sistema.html",
+      "dependencies": []
+    },
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/2. Fases Auditoria/2. Explotación/Conceptos Expotacion/Shells.md": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 5294,
+      "exportedPath": "notes/4.-cybersecurity/redteam/pentesting/sistemas/2.-fases-auditoria/2.-explotación/conceptos-expotacion/shells.html",
+      "dependencies": [
+        "lib/media/reverseshell.png",
+        "lib/media/bindshell.png"
+      ]
+    },
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/2. Fases Auditoria/2. Explotación/Conceptos Expotacion/Tipos de explotación.md": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 1125,
+      "exportedPath": "notes/4.-cybersecurity/redteam/pentesting/sistemas/2.-fases-auditoria/2.-explotación/conceptos-expotacion/tipos-de-explotación.html",
+      "dependencies": []
+    },
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/2. Fases Auditoria/2. Explotación/Vulnerabilidades/API Abuse/Explotación/Abuso de APIs.md": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 3324,
+      "exportedPath": "notes/4.-cybersecurity/redteam/pentesting/sistemas/2.-fases-auditoria/2.-explotación/vulnerabilidades/api-abuse/explotación/abuso-de-apis.html",
+      "dependencies": [
+        "lib/media/allow_methods.png"
+      ]
+    },
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/2. Fases Auditoria/2. Explotación/Vulnerabilidades/API Abuse/Explotación/Encontrar misconfigurations.md": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 4310,
+      "exportedPath": "notes/4.-cybersecurity/redteam/pentesting/sistemas/2.-fases-auditoria/2.-explotación/vulnerabilidades/api-abuse/explotación/encontrar-misconfigurations.html",
+      "dependencies": [
+        "lib/media/automated_scan_owap_zap.png",
+        "lib/media/import_openapi_definition_zap.png",
+        "lib/media/manual_explore_zap.png",
+        "lib/media/include_in_context_zap.png",
+        "lib/media/alerts_zap.png"
+      ]
+    },
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/2. Fases Auditoria/2. Explotación/Vulnerabilidades/API Abuse/Reconocimiento/API/Reverse Engineering/Reverse Engineering an API.md": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 4462,
+      "exportedPath": "notes/4.-cybersecurity/redteam/pentesting/sistemas/2.-fases-auditoria/2.-explotación/vulnerabilidades/api-abuse/reconocimiento/api/reverse-engineering/reverse-engineering-an-api.html",
+      "dependencies": [
+        "lib/media/mitmweb.png",
+        "lib/media/editor_swagger.png",
+        "lib/media/import_yml_postman.png"
+      ]
+    },
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/2. Fases Auditoria/2. Explotación/Vulnerabilidades/API Abuse/Reconocimiento/API/Reconocimiento Activo.md": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 4513,
+      "exportedPath": "notes/4.-cybersecurity/redteam/pentesting/sistemas/2.-fases-auditoria/2.-explotación/vulnerabilidades/api-abuse/reconocimiento/api/reconocimiento-activo.html",
+      "dependencies": [
+        "lib/media/devtools_network.png",
+        "lib/media/devtools_export_requests.png"
+      ]
+    },
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/2. Fases Auditoria/2. Explotación/Vulnerabilidades/API Abuse/Reconocimiento/API/Reconocimiento Pasivo.md": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 3927,
+      "exportedPath": "notes/4.-cybersecurity/redteam/pentesting/sistemas/2.-fases-auditoria/2.-explotación/vulnerabilidades/api-abuse/reconocimiento/api/reconocimiento-pasivo.html",
+      "dependencies": []
+    },
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/2. Fases Auditoria/2. Explotación/Vulnerabilidades/Padding Oracle/CBC_padding.md": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 72219,
+      "exportedPath": "notes/4.-cybersecurity/redteam/pentesting/sistemas/2.-fases-auditoria/2.-explotación/vulnerabilidades/padding-oracle/cbc_padding.html",
+      "dependencies": []
+    },
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/2. Fases Auditoria/2. Explotación/Vulnerabilidades/Padding Oracle/Padding Oracle (Ataque de oráculo de relleno).md": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 4942,
+      "exportedPath": "notes/4.-cybersecurity/redteam/pentesting/sistemas/2.-fases-auditoria/2.-explotación/vulnerabilidades/padding-oracle/padding-oracle-(ataque-de-oráculo-de-relleno).html",
+      "dependencies": [
+        "lib/media/cbc.png"
+      ]
+    },
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/2. Fases Auditoria/2. Explotación/Vulnerabilidades/SSRF/SSRF - (Server-Side Request Forgery).md": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 6365,
+      "exportedPath": "notes/4.-cybersecurity/redteam/pentesting/sistemas/2.-fases-auditoria/2.-explotación/vulnerabilidades/ssrf/ssrf-(server-side-request-forgery).html",
+      "dependencies": []
+    },
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/2. Fases Auditoria/2. Explotación/Vulnerabilidades/SSRF/SSRF_1stScenario.md": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 18627,
+      "exportedPath": "notes/4.-cybersecurity/redteam/pentesting/sistemas/2.-fases-auditoria/2.-explotación/vulnerabilidades/ssrf/ssrf_1stscenario.html",
+      "dependencies": []
+    },
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/2. Fases Auditoria/2. Explotación/Vulnerabilidades/SSRF/SSRF_2ndScenario.md": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 23821,
+      "exportedPath": "notes/4.-cybersecurity/redteam/pentesting/sistemas/2.-fases-auditoria/2.-explotación/vulnerabilidades/ssrf/ssrf_2ndscenario.html",
+      "dependencies": []
+    },
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/2. Fases Auditoria/2. Explotación/Vulnerabilidades/Abuso de enlaces simbólicos.md": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 1443,
+      "exportedPath": "notes/4.-cybersecurity/redteam/pentesting/sistemas/2.-fases-auditoria/2.-explotación/vulnerabilidades/abuso-de-enlaces-simbólicos.html",
+      "dependencies": []
+    },
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/2. Fases Auditoria/2. Explotación/Vulnerabilidades/Abuso de USER INPUT.md": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 1388,
+      "exportedPath": "notes/4.-cybersecurity/redteam/pentesting/sistemas/2.-fases-auditoria/2.-explotación/vulnerabilidades/abuso-de-user-input.html",
+      "dependencies": []
+    },
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/2. Fases Auditoria/2. Explotación/Vulnerabilidades/Abuso de xmlrpc.php en Wordpress.md": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 3686,
+      "exportedPath": "notes/4.-cybersecurity/redteam/pentesting/sistemas/2.-fases-auditoria/2.-explotación/vulnerabilidades/abuso-de-xmlrpc.php-en-wordpress.html",
+      "dependencies": []
+    },
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/2. Fases Auditoria/2. Explotación/Vulnerabilidades/Análisis de metadatos en documentos.md": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 1427,
+      "exportedPath": "notes/4.-cybersecurity/redteam/pentesting/sistemas/2.-fases-auditoria/2.-explotación/vulnerabilidades/análisis-de-metadatos-en-documentos.html",
+      "dependencies": []
+    },
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/2. Fases Auditoria/2. Explotación/Vulnerabilidades/Ataque de Deserialización Yaml - (DES-Yaml).md": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 3230,
+      "exportedPath": "notes/4.-cybersecurity/redteam/pentesting/sistemas/2.-fases-auditoria/2.-explotación/vulnerabilidades/ataque-de-deserialización-yaml-(des-yaml).html",
+      "dependencies": []
+    },
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/2. Fases Auditoria/2. Explotación/Vulnerabilidades/Ataque de Truncado SQL - ( SQL Truncation ).md": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 3316,
+      "exportedPath": "notes/4.-cybersecurity/redteam/pentesting/sistemas/2.-fases-auditoria/2.-explotación/vulnerabilidades/ataque-de-truncado-sql-(-sql-truncation-).html",
+      "dependencies": []
+    },
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/2. Fases Auditoria/2. Explotación/Vulnerabilidades/Ataques de transferencia de zona - ( AXFR - Full Zone Transfer ).md": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 2662,
+      "exportedPath": "notes/4.-cybersecurity/redteam/pentesting/sistemas/2.-fases-auditoria/2.-explotación/vulnerabilidades/ataques-de-transferencia-de-zona-(-axfr-full-zone-transfer-).html",
+      "dependencies": []
+    },
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/2. Fases Auditoria/2. Explotación/Vulnerabilidades/Conexión via SSH con Kerberos.md": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 1778,
+      "exportedPath": "notes/4.-cybersecurity/redteam/pentesting/sistemas/2.-fases-auditoria/2.-explotación/vulnerabilidades/conexión-via-ssh-con-kerberos.html",
+      "dependencies": []
+    },
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/2. Fases Auditoria/2. Explotación/Vulnerabilidades/CORS - ( Intercambio de recursos de origin cruzado ).md": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 3645,
+      "exportedPath": "notes/4.-cybersecurity/redteam/pentesting/sistemas/2.-fases-auditoria/2.-explotación/vulnerabilidades/cors-(-intercambio-de-recursos-de-origin-cruzado-).html",
+      "dependencies": []
+    },
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/2. Fases Auditoria/2. Explotación/Vulnerabilidades/CRLF (\r\n) Injection.md": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 1858,
+      "exportedPath": "notes/4.-cybersecurity/redteam/pentesting/sistemas/2.-fases-auditoria/2.-explotación/vulnerabilidades/crlf-(\r\n)-injection.html",
+      "dependencies": [
+        "lib/media/regex_crlf_injection.png"
+      ]
+    },
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/2. Fases Auditoria/2. Explotación/Vulnerabilidades/CSRF - (Cross-Side Request Forgery).md": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 2926,
+      "exportedPath": "notes/4.-cybersecurity/redteam/pentesting/sistemas/2.-fases-auditoria/2.-explotación/vulnerabilidades/csrf-(cross-side-request-forgery).html",
+      "dependencies": [
+        "lib/media/changepassword.png",
+        "lib/media/changepasswordcsrf.png",
+        "lib/media/get_csrf.png"
+      ]
+    },
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/2. Fases Auditoria/2. Explotación/Vulnerabilidades/CSSI - CSS Injections.md": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 2905,
+      "exportedPath": "notes/4.-cybersecurity/redteam/pentesting/sistemas/2.-fases-auditoria/2.-explotación/vulnerabilidades/cssi-css-injections.html",
+      "dependencies": [
+        "lib/media/cssi_blue.png",
+        "lib/media/cssi_green.png",
+        "lib/media/cssi_codigo_fuente.png",
+        "lib/media/cssi_css_props.png",
+        "lib/media/cssi_xss.png",
+        "lib/media/cssi_codigo_fuente_2.png"
+      ]
+    },
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/2. Fases Auditoria/2. Explotación/Vulnerabilidades/CSTI - (Client-Side Template Injection).md": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 1982,
+      "exportedPath": "notes/4.-cybersecurity/redteam/pentesting/sistemas/2.-fases-auditoria/2.-explotación/vulnerabilidades/csti-(client-side-template-injection).html",
+      "dependencies": []
+    },
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/2. Fases Auditoria/2. Explotación/Vulnerabilidades/DES-Pickle - ( Ataque de Deserialización Pickle ) - Python.md": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 2473,
+      "exportedPath": "notes/4.-cybersecurity/redteam/pentesting/sistemas/2.-fases-auditoria/2.-explotación/vulnerabilidades/des-pickle-(-ataque-de-deserialización-pickle-)-python.html",
+      "dependencies": []
+    },
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/2. Fases Auditoria/2. Explotación/Vulnerabilidades/Deserialization Attack - (Ataques de Deserialización).md": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 5948,
+      "exportedPath": "notes/4.-cybersecurity/redteam/pentesting/sistemas/2.-fases-auditoria/2.-explotación/vulnerabilidades/deserialization-attack-(ataques-de-deserialización).html",
+      "dependencies": []
+    },
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/2. Fases Auditoria/2. Explotación/Vulnerabilidades/Firma Digital para Cookies.md": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 1607,
+      "exportedPath": "notes/4.-cybersecurity/redteam/pentesting/sistemas/2.-fases-auditoria/2.-explotación/vulnerabilidades/firma-digital-para-cookies.html",
+      "dependencies": []
+    },
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/2. Fases Auditoria/2. Explotación/Vulnerabilidades/GraphQL Introspection, Mutations e IDORs.md": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 7249,
+      "exportedPath": "notes/4.-cybersecurity/redteam/pentesting/sistemas/2.-fases-auditoria/2.-explotación/vulnerabilidades/graphql-introspection,-mutations-e-idors.html",
+      "dependencies": [
+        "lib/media/graphql.png",
+        "lib/media/livemode_graphql-kit.png"
+      ]
+    },
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/2. Fases Auditoria/2. Explotación/Vulnerabilidades/H2 Console.md": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 986,
+      "exportedPath": "notes/4.-cybersecurity/redteam/pentesting/sistemas/2.-fases-auditoria/2.-explotación/vulnerabilidades/h2-console.html",
+      "dependencies": [
+        "lib/media/possible_login_fix_h2_consoe.png"
+      ]
+    },
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/2. Fases Auditoria/2. Explotación/Vulnerabilidades/IDORs - ( Insecure Direct Object Reference ).md": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 2714,
+      "exportedPath": "notes/4.-cybersecurity/redteam/pentesting/sistemas/2.-fases-auditoria/2.-explotación/vulnerabilidades/idors-(-insecure-direct-object-reference-).html",
+      "dependencies": []
+    },
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/2. Fases Auditoria/2. Explotación/Vulnerabilidades/Inyecciones LDAP.md": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 8138,
+      "exportedPath": "notes/4.-cybersecurity/redteam/pentesting/sistemas/2.-fases-auditoria/2.-explotación/vulnerabilidades/inyecciones-ldap.html",
+      "dependencies": []
+    },
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/2. Fases Auditoria/2. Explotación/Vulnerabilidades/Inyecciones XPath.md": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 5832,
+      "exportedPath": "notes/4.-cybersecurity/redteam/pentesting/sistemas/2.-fases-auditoria/2.-explotación/vulnerabilidades/inyecciones-xpath.html",
+      "dependencies": []
+    },
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/2. Fases Auditoria/2. Explotación/Vulnerabilidades/JWT - (JSON Web Tokens) Enumeración y explotación.md": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 6552,
+      "exportedPath": "notes/4.-cybersecurity/redteam/pentesting/sistemas/2.-fases-auditoria/2.-explotación/vulnerabilidades/jwt-(json-web-tokens)-enumeración-y-explotación.html",
+      "dependencies": [
+        "lib/media/jwt_strcture.png",
+        "lib/media/jwt.io.png"
+      ]
+    },
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/2. Fases Auditoria/2. Explotación/Vulnerabilidades/LaTeX Injections - ( Inyecciones LaTex ).md": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 5042,
+      "exportedPath": "notes/4.-cybersecurity/redteam/pentesting/sistemas/2.-fases-auditoria/2.-explotación/vulnerabilidades/latex-injections-(-inyecciones-latex-).html",
+      "dependencies": []
+    },
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/2. Fases Auditoria/2. Explotación/Vulnerabilidades/LFI - (Local File Inclusion).md": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 11885,
+      "exportedPath": "notes/4.-cybersecurity/redteam/pentesting/sistemas/2.-fases-auditoria/2.-explotación/vulnerabilidades/lfi-(local-file-inclusion).html",
+      "dependencies": []
+    },
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/2. Fases Auditoria/2. Explotación/Vulnerabilidades/Mass-Assignment (AttackAtaques de asignación masiva) - Parameter Binding.md": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 2528,
+      "exportedPath": "notes/4.-cybersecurity/redteam/pentesting/sistemas/2.-fases-auditoria/2.-explotación/vulnerabilidades/mass-assignment-(attackataques-de-asignación-masiva)-parameter-binding.html",
+      "dependencies": []
+    },
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/2. Fases Auditoria/2. Explotación/Vulnerabilidades/NoSQLI - (NoSQL Injections).md": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 2315,
+      "exportedPath": "notes/4.-cybersecurity/redteam/pentesting/sistemas/2.-fases-auditoria/2.-explotación/vulnerabilidades/nosqli-(nosql-injections).html",
+      "dependencies": []
+    },
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/2. Fases Auditoria/2. Explotación/Vulnerabilidades/Open Redirect.md": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 2934,
+      "exportedPath": "notes/4.-cybersecurity/redteam/pentesting/sistemas/2.-fases-auditoria/2.-explotación/vulnerabilidades/open-redirect.html",
+      "dependencies": []
+    },
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/2. Fases Auditoria/2. Explotación/Vulnerabilidades/Openssl Cipher Decryption.md": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 4462,
+      "exportedPath": "notes/4.-cybersecurity/redteam/pentesting/sistemas/2.-fases-auditoria/2.-explotación/vulnerabilidades/openssl-cipher-decryption.html",
+      "dependencies": []
+    },
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/2. Fases Auditoria/2. Explotación/Vulnerabilidades/Prototype Pollution.md": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 3162,
+      "exportedPath": "notes/4.-cybersecurity/redteam/pentesting/sistemas/2.-fases-auditoria/2.-explotación/vulnerabilidades/prototype-pollution.html",
+      "dependencies": []
+    },
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/2. Fases Auditoria/2. Explotación/Vulnerabilidades/Race Conditions - Condiciones de carrera.md": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 7497,
+      "exportedPath": "notes/4.-cybersecurity/redteam/pentesting/sistemas/2.-fases-auditoria/2.-explotación/vulnerabilidades/race-conditions-condiciones-de-carrera.html",
+      "dependencies": []
+    },
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/2. Fases Auditoria/2. Explotación/Vulnerabilidades/RCE - (Remote Command Execution).md": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 420,
+      "exportedPath": "notes/4.-cybersecurity/redteam/pentesting/sistemas/2.-fases-auditoria/2.-explotación/vulnerabilidades/rce-(remote-command-execution).html",
+      "dependencies": []
+    },
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/2. Fases Auditoria/2. Explotación/Vulnerabilidades/SCF File Attacks - (Shell Command File).md": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 1428,
+      "exportedPath": "notes/4.-cybersecurity/redteam/pentesting/sistemas/2.-fases-auditoria/2.-explotación/vulnerabilidades/scf-file-attacks-(shell-command-file).html",
+      "dependencies": []
+    },
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/2. Fases Auditoria/2. Explotación/Vulnerabilidades/Session Puzzling - Session Fixation - Session Variable Overloading.md": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 1767,
+      "exportedPath": "notes/4.-cybersecurity/redteam/pentesting/sistemas/2.-fases-auditoria/2.-explotación/vulnerabilidades/session-puzzling-session-fixation-session-variable-overloading.html",
+      "dependencies": []
+    },
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/2. Fases Auditoria/2. Explotación/Vulnerabilidades/ShellShock.md": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 4719,
+      "exportedPath": "notes/4.-cybersecurity/redteam/pentesting/sistemas/2.-fases-auditoria/2.-explotación/vulnerabilidades/shellshock.html",
+      "dependencies": []
+    },
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/2. Fases Auditoria/2. Explotación/Vulnerabilidades/SQLI - (Inyecciones SQL).md": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 14502,
+      "exportedPath": "notes/4.-cybersecurity/redteam/pentesting/sistemas/2.-fases-auditoria/2.-explotación/vulnerabilidades/sqli-(inyecciones-sql).html",
+      "dependencies": []
+    },
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/2. Fases Auditoria/2. Explotación/Vulnerabilidades/SSTI - (Server-Side Template Injection).md": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 2174,
+      "exportedPath": "notes/4.-cybersecurity/redteam/pentesting/sistemas/2.-fases-auditoria/2.-explotación/vulnerabilidades/ssti-(server-side-template-injection).html",
+      "dependencies": [
+        "lib/media/ssti_example.png",
+        "lib/media/ssti_example2.png"
+      ]
+    },
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/2. Fases Auditoria/2. Explotación/Vulnerabilidades/Type Juggling - (Cambio de tipo).md": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 2880,
+      "exportedPath": "notes/4.-cybersecurity/redteam/pentesting/sistemas/2.-fases-auditoria/2.-explotación/vulnerabilidades/type-juggling-(cambio-de-tipo).html",
+      "dependencies": []
+    },
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/2. Fases Auditoria/2. Explotación/Vulnerabilidades/XSS  - ( Cross-Site Scripting ).md": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 5551,
+      "exportedPath": "notes/4.-cybersecurity/redteam/pentesting/sistemas/2.-fases-auditoria/2.-explotación/vulnerabilidades/xss-(-cross-site-scripting-).html",
+      "dependencies": []
+    },
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/2. Fases Auditoria/2. Explotación/Vulnerabilidades/XXE - (XML External Entity Injection ).md": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 6323,
+      "exportedPath": "notes/4.-cybersecurity/redteam/pentesting/sistemas/2.-fases-auditoria/2.-explotación/vulnerabilidades/xxe-(xml-external-entity-injection-).html",
+      "dependencies": [
+        "lib/media/xml.png"
+      ]
+    },
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/2. Fases Auditoria/3. Escalada de Privilegios/Abusando de privilegios SUID.md": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 1583,
+      "exportedPath": "notes/4.-cybersecurity/redteam/pentesting/sistemas/2.-fases-auditoria/3.-escalada-de-privilegios/abusando-de-privilegios-suid.html",
+      "dependencies": []
+    },
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/2. Fases Auditoria/3. Escalada de Privilegios/Abuso de binarios específicos.md": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 522,
+      "exportedPath": "notes/4.-cybersecurity/redteam/pentesting/sistemas/2.-fases-auditoria/3.-escalada-de-privilegios/abuso-de-binarios-específicos.html",
+      "dependencies": []
+    },
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/2. Fases Auditoria/3. Escalada de Privilegios/Abuso de grupos de usuario especiales.md": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 2637,
+      "exportedPath": "notes/4.-cybersecurity/redteam/pentesting/sistemas/2.-fases-auditoria/3.-escalada-de-privilegios/abuso-de-grupos-de-usuario-especiales.html",
+      "dependencies": []
+    },
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/2. Fases Auditoria/3. Escalada de Privilegios/Abuso de permisos incorrectamente implementados.md": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 3424,
+      "exportedPath": "notes/4.-cybersecurity/redteam/pentesting/sistemas/2.-fases-auditoria/3.-escalada-de-privilegios/abuso-de-permisos-incorrectamente-implementados.html",
+      "dependencies": []
+    },
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/2. Fases Auditoria/3. Escalada de Privilegios/Abuso de privilegios a nivel de Sudoers.md": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 2652,
+      "exportedPath": "notes/4.-cybersecurity/redteam/pentesting/sistemas/2.-fases-auditoria/3.-escalada-de-privilegios/abuso-de-privilegios-a-nivel-de-sudoers.html",
+      "dependencies": []
+    },
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/2. Fases Auditoria/3. Escalada de Privilegios/Abuso de privilegios de escritura en DB's.md": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 1564,
+      "exportedPath": "notes/4.-cybersecurity/redteam/pentesting/sistemas/2.-fases-auditoria/3.-escalada-de-privilegios/abuso-de-privilegios-de-escritura-en-db's.html",
+      "dependencies": []
+    },
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/2. Fases Auditoria/3. Escalada de Privilegios/Abuso de rsync.md": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 1995,
+      "exportedPath": "notes/4.-cybersecurity/redteam/pentesting/sistemas/2.-fases-auditoria/3.-escalada-de-privilegios/abuso-de-rsync.html",
+      "dependencies": []
+    },
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/2. Fases Auditoria/3. Escalada de Privilegios/Abuso de servicios internos del sistema.md": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 3173,
+      "exportedPath": "notes/4.-cybersecurity/redteam/pentesting/sistemas/2.-fases-auditoria/3.-escalada-de-privilegios/abuso-de-servicios-internos-del-sistema.html",
+      "dependencies": []
+    },
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/2. Fases Auditoria/3. Escalada de Privilegios/Abuso de sistema de archivos montados.md": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 1873,
+      "exportedPath": "notes/4.-cybersecurity/redteam/pentesting/sistemas/2.-fases-auditoria/3.-escalada-de-privilegios/abuso-de-sistema-de-archivos-montados.html",
+      "dependencies": []
+    },
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/2. Fases Auditoria/3. Escalada de Privilegios/Análisis de archivos .jar.md": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 790,
+      "exportedPath": "notes/4.-cybersecurity/redteam/pentesting/sistemas/2.-fases-auditoria/3.-escalada-de-privilegios/análisis-de-archivos-.jar.html",
+      "dependencies": []
+    },
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/2. Fases Auditoria/3. Escalada de Privilegios/Base de datos de contraseñas con Keepass.md": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 1006,
+      "exportedPath": "notes/4.-cybersecurity/redteam/pentesting/sistemas/2.-fases-auditoria/3.-escalada-de-privilegios/base-de-datos-de-contraseñas-con-keepass.html",
+      "dependencies": []
+    },
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/2. Fases Auditoria/3. Escalada de Privilegios/Crack GPG messages - ( GNU Privacy  Guard ).md": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 3797,
+      "exportedPath": "notes/4.-cybersecurity/redteam/pentesting/sistemas/2.-fases-auditoria/3.-escalada-de-privilegios/crack-gpg-messages-(-gnu-privacy-guard-).html",
+      "dependencies": []
+    },
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/2. Fases Auditoria/3. Escalada de Privilegios/Detección y explotación de Capabilities.md": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 4331,
+      "exportedPath": "notes/4.-cybersecurity/redteam/pentesting/sistemas/2.-fases-auditoria/3.-escalada-de-privilegios/detección-y-explotación-de-capabilities.html",
+      "dependencies": []
+    },
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/2. Fases Auditoria/3. Escalada de Privilegios/Detección y explotación de tareas Cron.md": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 3848,
+      "exportedPath": "notes/4.-cybersecurity/redteam/pentesting/sistemas/2.-fases-auditoria/3.-escalada-de-privilegios/detección-y-explotación-de-tareas-cron.html",
+      "dependencies": []
+    },
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/2. Fases Auditoria/3. Escalada de Privilegios/Docker Breakout.md": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 11241,
+      "exportedPath": "notes/4.-cybersecurity/redteam/pentesting/sistemas/2.-fases-auditoria/3.-escalada-de-privilegios/docker-breakout.html",
+      "dependencies": []
+    },
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/2. Fases Auditoria/3. Escalada de Privilegios/Explotación del Kernel.md": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 1706,
+      "exportedPath": "notes/4.-cybersecurity/redteam/pentesting/sistemas/2.-fases-auditoria/3.-escalada-de-privilegios/explotación-del-kernel.html",
+      "dependencies": []
+    },
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/2. Fases Auditoria/3. Escalada de Privilegios/Keepass master key crack .dmp.md": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 1951,
+      "exportedPath": "notes/4.-cybersecurity/redteam/pentesting/sistemas/2.-fases-auditoria/3.-escalada-de-privilegios/keepass-master-key-crack-.dmp.html",
+      "dependencies": []
+    },
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/2. Fases Auditoria/3. Escalada de Privilegios/PATH Hijacking.md": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 4199,
+      "exportedPath": "notes/4.-cybersecurity/redteam/pentesting/sistemas/2.-fases-auditoria/3.-escalada-de-privilegios/path-hijacking.html",
+      "dependencies": []
+    },
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/2. Fases Auditoria/3. Escalada de Privilegios/Python Library Hijacking.md": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 4248,
+      "exportedPath": "notes/4.-cybersecurity/redteam/pentesting/sistemas/2.-fases-auditoria/3.-escalada-de-privilegios/python-library-hijacking.html",
+      "dependencies": []
+    },
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/2. Fases Auditoria/3. Escalada de Privilegios/Secuestro de la biblioteca de objetos compartidos enlazados dinámicamente.md": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 5564,
+      "exportedPath": "notes/4.-cybersecurity/redteam/pentesting/sistemas/2.-fases-auditoria/3.-escalada-de-privilegios/secuestro-de-la-biblioteca-de-objetos-compartidos-enlazados-dinámicamente.html",
+      "dependencies": []
+    },
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/2. Fases Auditoria/3. Escalada de Privilegios/Sesiones de firefox.md": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 1523,
+      "exportedPath": "notes/4.-cybersecurity/redteam/pentesting/sistemas/2.-fases-auditoria/3.-escalada-de-privilegios/sesiones-de-firefox.html",
+      "dependencies": []
+    },
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/2. Fases Auditoria/3. Escalada de Privilegios/TTY Hijacking.md": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 2479,
+      "exportedPath": "notes/4.-cybersecurity/redteam/pentesting/sistemas/2.-fases-auditoria/3.-escalada-de-privilegios/tty-hijacking.html",
+      "dependencies": []
+    },
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/2. Fases Auditoria/4. Redacción de Informe Profesional/Redacción de reporte profesional en LaTeX.md": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 28115,
+      "exportedPath": "notes/4.-cybersecurity/redteam/pentesting/sistemas/2.-fases-auditoria/4.-redacción-de-informe-profesional/redacción-de-reporte-profesional-en-latex.html",
+      "dependencies": []
+    },
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/3. Sistemas Operativos/Linux/Atajos de consola.md": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 1644,
+      "exportedPath": "notes/4.-cybersecurity/redteam/pentesting/sistemas/3.-sistemas-operativos/linux/atajos-de-consola.html",
+      "dependencies": []
+    },
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/3. Sistemas Operativos/Linux/Commands.md": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 2293,
+      "exportedPath": "notes/4.-cybersecurity/redteam/pentesting/sistemas/3.-sistemas-operativos/linux/commands.html",
+      "dependencies": []
+    },
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/3. Sistemas Operativos/Windows/Active Directory/Reconocimiento/Active Directory Recon.md": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 1460,
+      "exportedPath": "notes/4.-cybersecurity/redteam/pentesting/sistemas/3.-sistemas-operativos/windows/active-directory/reconocimiento/active-directory-recon.html",
+      "dependencies": []
+    },
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/3. Sistemas Operativos/Windows/Active Directory/Active Directory.md": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 3396,
+      "exportedPath": "notes/4.-cybersecurity/redteam/pentesting/sistemas/3.-sistemas-operativos/windows/active-directory/active-directory.html",
+      "dependencies": [
+        "lib/media/pasted-image-20230302212154.png"
+      ]
+    },
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/3. Sistemas Operativos/Windows/Privilege Scalation/Abusando de SeImpersonatePrivilege.md": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 3528,
+      "exportedPath": "notes/4.-cybersecurity/redteam/pentesting/sistemas/3.-sistemas-operativos/windows/privilege-scalation/abusando-de-seimpersonateprivilege.html",
+      "dependencies": []
+    },
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/3. Sistemas Operativos/Windows/Privilege Scalation/Abuso de AllowedToDelegate.md": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 3441,
+      "exportedPath": "notes/4.-cybersecurity/redteam/pentesting/sistemas/3.-sistemas-operativos/windows/privilege-scalation/abuso-de-allowedtodelegate.html",
+      "dependencies": []
+    },
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/3. Sistemas Operativos/Windows/Privilege Scalation/Abuso de AlwaysInstallElevated.md": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 2596,
+      "exportedPath": "notes/4.-cybersecurity/redteam/pentesting/sistemas/3.-sistemas-operativos/windows/privilege-scalation/abuso-de-alwaysinstallelevated.html",
+      "dependencies": []
+    },
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/3. Sistemas Operativos/Windows/Privilege Scalation/Abuso de binarios específicos.md": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 665,
+      "exportedPath": "notes/4.-cybersecurity/redteam/pentesting/sistemas/3.-sistemas-operativos/windows/privilege-scalation/abuso-de-binarios-específicos.html",
+      "dependencies": []
+    },
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/3. Sistemas Operativos/Windows/Privilege Scalation/Abuso de grupo 'Server Operators'.md": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 2027,
+      "exportedPath": "notes/4.-cybersecurity/redteam/pentesting/sistemas/3.-sistemas-operativos/windows/privilege-scalation/abuso-de-grupo-'server-operators'.html",
+      "dependencies": []
+    },
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/3. Sistemas Operativos/Windows/Privilege Scalation/Abuso de SeBackupPrivilege.md": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 2157,
+      "exportedPath": "notes/4.-cybersecurity/redteam/pentesting/sistemas/3.-sistemas-operativos/windows/privilege-scalation/abuso-de-sebackupprivilege.html",
+      "dependencies": []
+    },
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/3. Sistemas Operativos/Windows/Privilege Scalation/Intentos Básicos.md": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 2086,
+      "exportedPath": "notes/4.-cybersecurity/redteam/pentesting/sistemas/3.-sistemas-operativos/windows/privilege-scalation/intentos-básicos.html",
+      "dependencies": []
+    },
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/3. Sistemas Operativos/Windows/Privilege Scalation/Print Spooler (PrintNightmare).md": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 1632,
+      "exportedPath": "notes/4.-cybersecurity/redteam/pentesting/sistemas/3.-sistemas-operativos/windows/privilege-scalation/print-spooler-(printnightmare).html",
+      "dependencies": []
+    },
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/3. Sistemas Operativos/Windows/Vulnerabilidades/Kerberos Vulns/AS-REP Roast Attack.md": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 2111,
+      "exportedPath": "notes/4.-cybersecurity/redteam/pentesting/sistemas/3.-sistemas-operativos/windows/vulnerabilidades/kerberos-vulns/as-rep-roast-attack.html",
+      "dependencies": []
+    },
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/3. Sistemas Operativos/Windows/Vulnerabilidades/Kerberos Vulns/Diamond Ticket Attack.md": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 3622,
+      "exportedPath": "notes/4.-cybersecurity/redteam/pentesting/sistemas/3.-sistemas-operativos/windows/vulnerabilidades/kerberos-vulns/diamond-ticket-attack.html",
+      "dependencies": []
+    },
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/3. Sistemas Operativos/Windows/Vulnerabilidades/Kerberos Vulns/Golden Ticket Attack.md": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 4491,
+      "exportedPath": "notes/4.-cybersecurity/redteam/pentesting/sistemas/3.-sistemas-operativos/windows/vulnerabilidades/kerberos-vulns/golden-ticket-attack.html",
+      "dependencies": []
+    },
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/3. Sistemas Operativos/Windows/Vulnerabilidades/Kerberos Vulns/Kerberoasting Attack.md": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 10123,
+      "exportedPath": "notes/4.-cybersecurity/redteam/pentesting/sistemas/3.-sistemas-operativos/windows/vulnerabilidades/kerberos-vulns/kerberoasting-attack.html",
+      "dependencies": []
+    },
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/3. Sistemas Operativos/Windows/Vulnerabilidades/Kerberos Vulns/Silver Ticket Attack.md": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 3493,
+      "exportedPath": "notes/4.-cybersecurity/redteam/pentesting/sistemas/3.-sistemas-operativos/windows/vulnerabilidades/kerberos-vulns/silver-ticket-attack.html",
+      "dependencies": []
+    },
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/3. Sistemas Operativos/Windows/Vulnerabilidades/Abuso de ForceChangePassword.md": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 1129,
+      "exportedPath": "notes/4.-cybersecurity/redteam/pentesting/sistemas/3.-sistemas-operativos/windows/vulnerabilidades/abuso-de-forcechangepassword.html",
+      "dependencies": []
+    },
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/3. Sistemas Operativos/Windows/Vulnerabilidades/Abuso de ReadGMSAPassword.md": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 1323,
+      "exportedPath": "notes/4.-cybersecurity/redteam/pentesting/sistemas/3.-sistemas-operativos/windows/vulnerabilidades/abuso-de-readgmsapassword.html",
+      "dependencies": []
+    },
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/3. Sistemas Operativos/Windows/Vulnerabilidades/DC Sync Attack.md": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 2579,
+      "exportedPath": "notes/4.-cybersecurity/redteam/pentesting/sistemas/3.-sistemas-operativos/windows/vulnerabilidades/dc-sync-attack.html",
+      "dependencies": []
+    },
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/3. Sistemas Operativos/Windows/Vulnerabilidades/DNS Record Injection.md": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 1615,
+      "exportedPath": "notes/4.-cybersecurity/redteam/pentesting/sistemas/3.-sistemas-operativos/windows/vulnerabilidades/dns-record-injection.html",
+      "dependencies": []
+    },
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/3. Sistemas Operativos/Windows/Vulnerabilidades/ICMP Reverse Shell (PowerShell).md": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 7998,
+      "exportedPath": "notes/4.-cybersecurity/redteam/pentesting/sistemas/3.-sistemas-operativos/windows/vulnerabilidades/icmp-reverse-shell-(powershell).html",
+      "dependencies": []
+    },
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/3. Sistemas Operativos/Windows/Vulnerabilidades/Lsass dump analisis.md": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 2030,
+      "exportedPath": "notes/4.-cybersecurity/redteam/pentesting/sistemas/3.-sistemas-operativos/windows/vulnerabilidades/lsass-dump-analisis.html",
+      "dependencies": []
+    },
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/3. Sistemas Operativos/Windows/Vulnerabilidades/Pass The Hash.md": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 7531,
+      "exportedPath": "notes/4.-cybersecurity/redteam/pentesting/sistemas/3.-sistemas-operativos/windows/vulnerabilidades/pass-the-hash.html",
+      "dependencies": []
+    },
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/3. Sistemas Operativos/Windows/Vulnerabilidades/Resource-based Constraint Delegation.md": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 4708,
+      "exportedPath": "notes/4.-cybersecurity/redteam/pentesting/sistemas/3.-sistemas-operativos/windows/vulnerabilidades/resource-based-constraint-delegation.html",
+      "dependencies": []
+    },
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/3. Sistemas Operativos/Windows/Commands.md": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 1945,
+      "exportedPath": "notes/4.-cybersecurity/redteam/pentesting/sistemas/3.-sistemas-operativos/windows/commands.html",
+      "dependencies": [
+        "lib/media/pasted-image-20230215173659.png"
+      ]
+    },
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/3. Sistemas Operativos/Windows/Recopilación de información del sistema..md": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 4193,
+      "exportedPath": "notes/4.-cybersecurity/redteam/pentesting/sistemas/3.-sistemas-operativos/windows/recopilación-de-información-del-sistema..html",
+      "dependencies": []
+    },
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/4. Avanzado/Buffer Overflow/Buffer Overflow Escenarios/Buffer Overflow básico x86.md": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 18005,
+      "exportedPath": "notes/4.-cybersecurity/redteam/pentesting/sistemas/4.-avanzado/buffer-overflow/buffer-overflow-escenarios/buffer-overflow-básico-x86.html",
+      "dependencies": []
+    },
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/4. Avanzado/Buffer Overflow/Buffer Overflow Escenarios/Buffer Overflow x86 linux.md": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 8399,
+      "exportedPath": "notes/4.-cybersecurity/redteam/pentesting/sistemas/4.-avanzado/buffer-overflow/buffer-overflow-escenarios/buffer-overflow-x86-linux.html",
+      "dependencies": []
+    },
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/4. Avanzado/Buffer Overflow/Buffer Overflow.md": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 8507,
+      "exportedPath": "notes/4.-cybersecurity/redteam/pentesting/sistemas/4.-avanzado/buffer-overflow/buffer-overflow.html",
+      "dependencies": []
+    },
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/4. Avanzado/Buffer Overflow/Shellcodes.md": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 9544,
+      "exportedPath": "notes/4.-cybersecurity/redteam/pentesting/sistemas/4.-avanzado/buffer-overflow/shellcodes.html",
+      "dependencies": [
+        "lib/media/hola_mundo_ensamblador.png",
+        "lib/media/respawn_bash_ensamblador.png"
+      ]
+    },
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/4. Avanzado/iptables/Añadir tráfico con nuestra máquina.md": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 1593,
+      "exportedPath": "notes/4.-cybersecurity/redteam/pentesting/sistemas/4.-avanzado/iptables/añadir-tráfico-con-nuestra-máquina.html",
+      "dependencies": []
+    },
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/4. Avanzado/pivoting/Pivoting.md": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 12888,
+      "exportedPath": "notes/4.-cybersecurity/redteam/pentesting/sistemas/4.-avanzado/pivoting/pivoting.html",
+      "dependencies": [
+        "lib/media/enviroment_pivoting_3_machines.png",
+        "lib/media/pivoting_4_machines.png"
+      ]
+    },
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/Herramientas/⚒ Herramientas ⚒.md": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 4072,
+      "exportedPath": "notes/4.-cybersecurity/redteam/pentesting/sistemas/herramientas/⚒-herramientas-⚒.html",
+      "dependencies": []
+    },
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/Herramientas/Burpsuite.md": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 7929,
+      "exportedPath": "notes/4.-cybersecurity/redteam/pentesting/sistemas/herramientas/burpsuite.html",
+      "dependencies": [
+        "lib/media/interceptarrespuestassiempreburp.png",
+        "lib/media/reglaspararemplazarvaloresburp.png",
+        "lib/media/scopeconfigburp.png",
+        "lib/media/proxyhistoriajustscope.png",
+        "lib/media/extensionsburp.png"
+      ]
+    },
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/Herramientas/Debugging con pdb en Python.md": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 372,
+      "exportedPath": "notes/4.-cybersecurity/redteam/pentesting/sistemas/herramientas/debugging-con-pdb-en-python.html",
+      "dependencies": []
+    },
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/Herramientas/Metasploit.md": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 3470,
+      "exportedPath": "notes/4.-cybersecurity/redteam/pentesting/sistemas/herramientas/metasploit.html",
+      "dependencies": []
+    },
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/Herramientas/Nmap.md": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 3339,
+      "exportedPath": "notes/4.-cybersecurity/redteam/pentesting/sistemas/herramientas/nmap.html",
+      "dependencies": []
+    },
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/Herramientas/Postman.md": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 2701,
+      "exportedPath": "notes/4.-cybersecurity/redteam/pentesting/sistemas/herramientas/postman.html",
+      "dependencies": [
+        "lib/media/create_collection_postman.png",
+        "lib/media/add_enpoint_postman.png",
+        "lib/media/add_variables_postman.png",
+        "lib/media/authorization_token_postman.png",
+        "lib/media/postman_proxy.png",
+        "lib/media/postman_proxy_capture.png"
+      ]
+    },
+    "Notes/4. Cybersecurity/RedTeam/Pentesting/Sistemas/Herramientas/SQLMap.md": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 2844,
+      "exportedPath": "notes/4.-cybersecurity/redteam/pentesting/sistemas/herramientas/sqlmap.html",
+      "dependencies": []
+    },
+    "Notes/5. Tecnologías/Lenguajes y Tools/Python/Modules/Conexiones de red y protocolos.md": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 10949,
+      "exportedPath": "notes/5.-tecnologías/lenguajes-y-tools/python/modules/conexiones-de-red-y-protocolos.html",
+      "dependencies": []
+    },
+    "Notes/5. Tecnologías/Lenguajes y Tools/Python/Modules/Date-Time.md": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 1853,
+      "exportedPath": "notes/5.-tecnologías/lenguajes-y-tools/python/modules/date-time.html",
+      "dependencies": []
+    },
+    "Notes/5. Tecnologías/Lenguajes y Tools/Python/Modules/Expresiones regulares.md": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 3331,
+      "exportedPath": "notes/5.-tecnologías/lenguajes-y-tools/python/modules/expresiones-regulares.html",
+      "dependencies": []
+    },
+    "Notes/5. Tecnologías/Lenguajes y Tools/Python/Modules/Librería OS y SYS.md": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 2584,
+      "exportedPath": "notes/5.-tecnologías/lenguajes-y-tools/python/modules/librería-os-y-sys.html",
+      "dependencies": []
+    },
+    "Notes/5. Tecnologías/Lenguajes y Tools/Python/Modules/Librería threading y multiprocessing.md": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 5766,
+      "exportedPath": "notes/5.-tecnologías/lenguajes-y-tools/python/modules/librería-threading-y-multiprocessing.html",
+      "dependencies": [
+        "lib/media/threading_python.png",
+        "lib/media/multiprocessing_python.png",
+        "lib/media/multiprocessing_python_subprocesses.png"
+      ]
+    },
+    "Notes/5. Tecnologías/Lenguajes y Tools/Python/Modules/Manejo de archivos y directorios.md": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 2771,
+      "exportedPath": "notes/5.-tecnologías/lenguajes-y-tools/python/modules/manejo-de-archivos-y-directorios.html",
+      "dependencies": []
+    },
+    "Notes/5. Tecnologías/Lenguajes y Tools/Python/Modules/Requests y URLlib3.md": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 7682,
+      "exportedPath": "notes/5.-tecnologías/lenguajes-y-tools/python/modules/requests-y-urllib3.html",
+      "dependencies": []
+    },
+    "Notes/5. Tecnologías/Lenguajes y Tools/Python/Crear un proyecto en PyPI.md": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 4832,
+      "exportedPath": "notes/5.-tecnologías/lenguajes-y-tools/python/crear-un-proyecto-en-pypi.html",
+      "dependencies": []
+    },
+    "Notes/5. Tecnologías/Lenguajes y Tools/Python/Organización de código en módulos.md": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 4007,
+      "exportedPath": "notes/5.-tecnologías/lenguajes-y-tools/python/organización-de-código-en-módulos.html",
+      "dependencies": []
+    },
+    "Notes/5. Tecnologías/Lenguajes y Tools/Python/POO en Python.md": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 17377,
+      "exportedPath": "notes/5.-tecnologías/lenguajes-y-tools/python/poo-en-python.html",
+      "dependencies": []
+    },
+    "Notes/5. Tecnologías/Lenguajes y Tools/Python/Python.md": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 27717,
+      "exportedPath": "notes/5.-tecnologías/lenguajes-y-tools/python/python.html",
+      "dependencies": []
+    },
+    "Notes/5. Tecnologías/Lenguajes y Tools/SQL/MSSQL.md": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 3355,
+      "exportedPath": "notes/5.-tecnologías/lenguajes-y-tools/sql/mssql.html",
+      "dependencies": []
+    },
+    "Notes/5. Tecnologías/Lenguajes y Tools/SQL/MySQL.md": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 1400,
+      "exportedPath": "notes/5.-tecnologías/lenguajes-y-tools/sql/mysql.html",
+      "dependencies": [
+        "lib/media/pasted-image-20230215165210.png"
+      ]
+    },
+    "Notes/5. Tecnologías/Lenguajes y Tools/SQL/PostgreSQL.md": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 894,
+      "exportedPath": "notes/5.-tecnologías/lenguajes-y-tools/sql/postgresql.html",
+      "dependencies": [
+        "lib/media/pasted-image-20230215165210.png"
+      ]
+    },
+    "Notes/5. Tecnologías/Lenguajes y Tools/SQL/SQL.md": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 17878,
+      "exportedPath": "notes/5.-tecnologías/lenguajes-y-tools/sql/sql.html",
+      "dependencies": [
+        "lib/media/pasted-image-20230215165210.png",
+        "lib/media/pasted-image-20230403162341.png",
+        "lib/media/pasted-image-20230403162759.png",
+        "lib/media/pasted-image-20230403163235.png",
+        "lib/media/pasted-image-20230403163410.png",
+        "lib/media/pasted-image-20230403163806.png",
+        "lib/media/pasted-image-20230403164237.png",
+        "lib/media/pasted-image-20230404130357.png",
+        "lib/media/pasted-image-20230406111340.png",
+        "lib/media/pasted-image-20230406112807.png",
+        "lib/media/pasted-image-20230406112516.png",
+        "lib/media/pasted-image-20230406153509.png",
+        "lib/media/pasted-image-20230406154836.png",
+        "lib/media/pasted-image-20230407170142.png",
+        "lib/media/pasted-image-20230407165626.png"
+      ]
+    },
+    "Notes/5. Tecnologías/Lenguajes y Tools/Docker.md": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 3852,
+      "exportedPath": "notes/5.-tecnologías/lenguajes-y-tools/docker.html",
+      "dependencies": [
+        "lib/media/pasted-image-20230215163522.png"
+      ]
+    },
+    "Notes/5. Tecnologías/Lenguajes y Tools/Git.md": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 374,
+      "exportedPath": "notes/5.-tecnologías/lenguajes-y-tools/git.html",
+      "dependencies": []
+    },
+    "Notes/5. Tecnologías/Lenguajes y Tools/MongoDB.md": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 375,
+      "exportedPath": "notes/5.-tecnologías/lenguajes-y-tools/mongodb.html",
+      "dependencies": []
+    },
+    "Notes/5. Tecnologías/Lenguajes y Tools/PHP.md": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 910,
+      "exportedPath": "notes/5.-tecnologías/lenguajes-y-tools/php.html",
+      "dependencies": []
+    },
+    "Notes/5. Tecnologías/Lenguajes y Tools/Sqlite3.md": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 276,
+      "exportedPath": "notes/5.-tecnologías/lenguajes-y-tools/sqlite3.html",
+      "dependencies": []
+    },
+    "Notes/5. Tecnologías/Services/Kerberos/Kerberos.md": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 601,
+      "exportedPath": "notes/5.-tecnologías/services/kerberos/kerberos.html",
+      "dependencies": [
+        "lib/media/keberos_authentication_flow.png"
+      ]
+    },
+    "Notes/5. Tecnologías/Services/Kerberos/KERBEROS_AUTHETICATION_FLOW.md": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 49705,
+      "exportedPath": "notes/5.-tecnologías/services/kerberos/kerberos_authetication_flow.html",
+      "dependencies": []
+    },
+    "Notes/5. Tecnologías/Batch Scripting.md": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 4719,
+      "exportedPath": "notes/5.-tecnologías/batch-scripting.html",
+      "dependencies": []
+    },
+    "Notes/5. Tecnologías/Scripting en Bash.md": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 2143,
+      "exportedPath": "notes/5.-tecnologías/scripting-en-bash.html",
+      "dependencies": []
+    },
+    "lib/media/elf_format.png": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 90644,
+      "exportedPath": "lib/media/elf_format.png",
+      "dependencies": []
+    },
+    "lib/media/readelf_elf_header.png": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 107705,
+      "exportedPath": "lib/media/readelf_elf_header.png",
+      "dependencies": []
+    },
+    "lib/media/readelf_program_table.png": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 235760,
+      "exportedPath": "lib/media/readelf_program_table.png",
+      "dependencies": []
+    },
+    "lib/media/readelf_section_table.png": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 147807,
+      "exportedPath": "lib/media/readelf_section_table.png",
+      "dependencies": []
+    },
+    "lib/media/pe_format.png": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 69931,
+      "exportedPath": "lib/media/pe_format.png",
+      "dependencies": []
+    },
+    "lib/media/ram_image.png": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 315832,
+      "exportedPath": "lib/media/ram_image.png",
+      "dependencies": []
+    },
+    "lib/media/bus_image.png": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 205608,
+      "exportedPath": "lib/media/bus_image.png",
+      "dependencies": []
+    },
+    "lib/media/address_bus.png": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 140072,
+      "exportedPath": "lib/media/address_bus.png",
+      "dependencies": []
+    },
+    "lib/media/control_bus.png": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 46124,
+      "exportedPath": "lib/media/control_bus.png",
+      "dependencies": []
+    },
+    "lib/media/clock_bus.png": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 329858,
+      "exportedPath": "lib/media/clock_bus.png",
+      "dependencies": []
+    },
+    "lib/media/data_bus.png": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 182917,
+      "exportedPath": "lib/media/data_bus.png",
+      "dependencies": []
+    },
+    "lib/media/simm_image.png": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 240244,
+      "exportedPath": "lib/media/simm_image.png",
+      "dependencies": []
+    },
+    "lib/media/dimm_image.png": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 262930,
+      "exportedPath": "lib/media/dimm_image.png",
+      "dependencies": []
+    },
+    "lib/media/dual_channel_image.png": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 411200,
+      "exportedPath": "lib/media/dual_channel_image.png",
+      "dependencies": []
+    },
+    "lib/media/pre_ddr.png": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 75243,
+      "exportedPath": "lib/media/pre_ddr.png",
+      "dependencies": []
+    },
+    "lib/media/ddr_image.png": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 98592,
+      "exportedPath": "lib/media/ddr_image.png",
+      "dependencies": []
+    },
+    "lib/media/virtual_memory.png": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 102592,
+      "exportedPath": "lib/media/virtual_memory.png",
+      "dependencies": []
+    },
+    "lib/media/cybersecurity_landscape.png": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 494627,
+      "exportedPath": "lib/media/cybersecurity_landscape.png",
+      "dependencies": []
+    },
+    "lib/media/apis_tools_and_recommendations.png": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 866874,
+      "exportedPath": "lib/media/apis_tools_and_recommendations.png",
+      "dependencies": []
+    },
+    "lib/media/governance_benefits_apisec.png": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 546125,
+      "exportedPath": "lib/media/governance_benefits_apisec.png",
+      "dependencies": []
+    },
+    "lib/media/desing_guide_example.png": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 822279,
+      "exportedPath": "lib/media/desing_guide_example.png",
+      "dependencies": []
+    },
+    "lib/media/api_testing.png": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 638400,
+      "exportedPath": "lib/media/api_testing.png",
+      "dependencies": []
+    },
+    "lib/media/monitoring.png": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 531910,
+      "exportedPath": "lib/media/monitoring.png",
+      "dependencies": []
+    },
+    "lib/media/api_discovery.png": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 723170,
+      "exportedPath": "lib/media/api_discovery.png",
+      "dependencies": []
+    },
+    "lib/media/limitations_of_monitoring.png": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 789354,
+      "exportedPath": "lib/media/limitations_of_monitoring.png",
+      "dependencies": []
+    },
+    "lib/media/choosign_deployment_strategy_sumologic.png": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 378914,
+      "exportedPath": "lib/media/choosign_deployment_strategy_sumologic.png",
+      "dependencies": []
+    },
+    "lib/media/hosted_collector_overview.png": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 39496,
+      "exportedPath": "lib/media/hosted_collector_overview.png",
+      "dependencies": []
+    },
+    "lib/media/install_collectors.png": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 514003,
+      "exportedPath": "lib/media/install_collectors.png",
+      "dependencies": []
+    },
+    "lib/media/open_telemetry_workout.png": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 181873,
+      "exportedPath": "lib/media/open_telemetry_workout.png",
+      "dependencies": []
+    },
+    "lib/media/sources_for_installed_collectors.png": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 174734,
+      "exportedPath": "lib/media/sources_for_installed_collectors.png",
+      "dependencies": []
+    },
+    "lib/media/sources_for_hosted_collectors.png": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 258634,
+      "exportedPath": "lib/media/sources_for_hosted_collectors.png",
+      "dependencies": []
+    },
+    "lib/media/5_firts_meta_fields.png": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 383558,
+      "exportedPath": "lib/media/5_firts_meta_fields.png",
+      "dependencies": []
+    },
+    "lib/media/more_metadata_fields.png": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 316591,
+      "exportedPath": "lib/media/more_metadata_fields.png",
+      "dependencies": []
+    },
+    "lib/media/ingest_budgets_to_collector.png": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 338490,
+      "exportedPath": "lib/media/ingest_budgets_to_collector.png",
+      "dependencies": []
+    },
+    "lib/media/data_tiers.png": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 218144,
+      "exportedPath": "lib/media/data_tiers.png",
+      "dependencies": []
+    },
+    "lib/media/enterprise_data_.png": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 339998,
+      "exportedPath": "lib/media/enterprise_data_.png",
+      "dependencies": []
+    },
+    "lib/media/why_metrics_are_important.png": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 186675,
+      "exportedPath": "lib/media/why_metrics_are_important.png",
+      "dependencies": []
+    },
+    "lib/media/logs_metrics.png": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 170754,
+      "exportedPath": "lib/media/logs_metrics.png",
+      "dependencies": []
+    },
+    "lib/media/observability_pilars.png": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 202574,
+      "exportedPath": "lib/media/observability_pilars.png",
+      "dependencies": []
+    },
+    "lib/media/transaction_traces_sumo_logic.png": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 677014,
+      "exportedPath": "lib/media/transaction_traces_sumo_logic.png",
+      "dependencies": []
+    },
+    "lib/media/tracing_important.png": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 150703,
+      "exportedPath": "lib/media/tracing_important.png",
+      "dependencies": []
+    },
+    "lib/media/monitoring_sumo_logic.png": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 365495,
+      "exportedPath": "lib/media/monitoring_sumo_logic.png",
+      "dependencies": []
+    },
+    "lib/media/alert_response.png": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 186376,
+      "exportedPath": "lib/media/alert_response.png",
+      "dependencies": []
+    },
+    "lib/media/without_alert_grouping.png": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 83682,
+      "exportedPath": "lib/media/without_alert_grouping.png",
+      "dependencies": []
+    },
+    "lib/media/alert_grouping.png": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 94911,
+      "exportedPath": "lib/media/alert_grouping.png",
+      "dependencies": []
+    },
+    "lib/media/network_setup_malware_analysis.png": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 35456,
+      "exportedPath": "lib/media/network_setup_malware_analysis.png",
+      "dependencies": []
+    },
+    "lib/media/network_adapter_settings_vmware.png": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 35042,
+      "exportedPath": "lib/media/network_adapter_settings_vmware.png",
+      "dependencies": []
+    },
+    "lib/media/spf_protocol.png": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 182605,
+      "exportedPath": "lib/media/spf_protocol.png",
+      "dependencies": []
+    },
+    "lib/media/dkim_protocol.png": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 161724,
+      "exportedPath": "lib/media/dkim_protocol.png",
+      "dependencies": []
+    },
+    "lib/media/dmarc_standard.png": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 130778,
+      "exportedPath": "lib/media/dmarc_standard.png",
+      "dependencies": []
+    },
+    "lib/media/iot_attack_tree.png": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 74370,
+      "exportedPath": "lib/media/iot_attack_tree.png",
+      "dependencies": []
+    },
+    "lib/media/iot-methodology_pentesting.png": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 140270,
+      "exportedPath": "lib/media/iot-methodology_pentesting.png",
+      "dependencies": []
+    },
+    "lib/media/iot_fccid_example.png": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 240188,
+      "exportedPath": "lib/media/iot_fccid_example.png",
+      "dependencies": []
+    },
+    "lib/media/foward_proxy.png": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 52635,
+      "exportedPath": "lib/media/foward_proxy.png",
+      "dependencies": []
+    },
+    "lib/media/reverse_proxy.png": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 61701,
+      "exportedPath": "lib/media/reverse_proxy.png",
+      "dependencies": []
+    },
+    "lib/media/common_network_types.png": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 24414,
+      "exportedPath": "lib/media/common_network_types.png",
+      "dependencies": []
+    },
+    "lib/media/book_network_types.png": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 16088,
+      "exportedPath": "lib/media/book_network_types.png",
+      "dependencies": []
+    },
+    "lib/media/topology_connections.png": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 13568,
+      "exportedPath": "lib/media/topology_connections.png",
+      "dependencies": []
+    },
+    "lib/media/nodes_topology.png": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 7759,
+      "exportedPath": "lib/media/nodes_topology.png",
+      "dependencies": []
+    },
+    "lib/media/topology_types.png": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 6335,
+      "exportedPath": "lib/media/topology_types.png",
+      "dependencies": []
+    },
+    "lib/media/point-to-piont_topology.png": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 19826,
+      "exportedPath": "lib/media/point-to-piont_topology.png",
+      "dependencies": []
+    },
+    "lib/media/bus_topology.png": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 44559,
+      "exportedPath": "lib/media/bus_topology.png",
+      "dependencies": []
+    },
+    "lib/media/star_topology.png": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 39167,
+      "exportedPath": "lib/media/star_topology.png",
+      "dependencies": []
+    },
+    "lib/media/ring_topology.png": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 46553,
+      "exportedPath": "lib/media/ring_topology.png",
+      "dependencies": []
+    },
+    "lib/media/mesh_topology.png": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 56587,
+      "exportedPath": "lib/media/mesh_topology.png",
+      "dependencies": []
+    },
+    "lib/media/tree_topology.png": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 63101,
+      "exportedPath": "lib/media/tree_topology.png",
+      "dependencies": []
+    },
+    "lib/media/hybrid_topology.png": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 64860,
+      "exportedPath": "lib/media/hybrid_topology.png",
+      "dependencies": []
+    },
+    "lib/media/daisy_chain_topology.png": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 47239,
+      "exportedPath": "lib/media/daisy_chain_topology.png",
+      "dependencies": []
+    },
+    "lib/media/osi_tcp_ip_layers.png": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 80631,
+      "exportedPath": "lib/media/osi_tcp_ip_layers.png",
+      "dependencies": []
+    },
+    "lib/media/osi_modl_and_tcp-ip_model.png": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 81019,
+      "exportedPath": "lib/media/osi_modl_and_tcp-ip_model.png",
+      "dependencies": []
+    },
+    "lib/media/packet_transfers.png": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 94789,
+      "exportedPath": "lib/media/packet_transfers.png",
+      "dependencies": []
+    },
+    "lib/media/packet_transfer.png": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 43831,
+      "exportedPath": "lib/media/packet_transfer.png",
+      "dependencies": []
+    },
+    "lib/media/network_clases.png": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 33951,
+      "exportedPath": "lib/media/network_clases.png",
+      "dependencies": []
+    },
+    "lib/media/subnetmask.png": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 38854,
+      "exportedPath": "lib/media/subnetmask.png",
+      "dependencies": []
+    },
+    "lib/media/first_addresses_table.png": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 39792,
+      "exportedPath": "lib/media/first_addresses_table.png",
+      "dependencies": []
+    },
+    "lib/media/last_addresses_table.png": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 41672,
+      "exportedPath": "lib/media/last_addresses_table.png",
+      "dependencies": []
+    },
+    "lib/media/basic_connection.png": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 131724,
+      "exportedPath": "lib/media/basic_connection.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20230410072747.png": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 219206,
+      "exportedPath": "lib/media/pasted-image-20230410072747.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20230410073756.png": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 12238,
+      "exportedPath": "lib/media/pasted-image-20230410073756.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20230410073928.png": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 43163,
+      "exportedPath": "lib/media/pasted-image-20230410073928.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20230410101337.png": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 16382,
+      "exportedPath": "lib/media/pasted-image-20230410101337.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20230410112448.png": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 11510,
+      "exportedPath": "lib/media/pasted-image-20230410112448.png",
+      "dependencies": []
+    },
+    "lib/media/machetenetmask.png": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 72233,
+      "exportedPath": "lib/media/machetenetmask.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20230410113952.png": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 106494,
+      "exportedPath": "lib/media/pasted-image-20230410113952.png",
+      "dependencies": []
+    },
+    "lib/media/bits_de_un_byte.png": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 110321,
+      "exportedPath": "lib/media/bits_de_un_byte.png",
+      "dependencies": []
+    },
+    "lib/media/andoperation.png": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 8901,
+      "exportedPath": "lib/media/andoperation.png",
+      "dependencies": []
+    },
+    "lib/media/firewall.png": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 514209,
+      "exportedPath": "lib/media/firewall.png",
+      "dependencies": []
+    },
+    "lib/media/firewalllenght.png": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 16589,
+      "exportedPath": "lib/media/firewalllenght.png",
+      "dependencies": []
+    },
+    "lib/media/synackrst.png": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 12679,
+      "exportedPath": "lib/media/synackrst.png",
+      "dependencies": []
+    },
+    "lib/media/firewallips.png": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 19826,
+      "exportedPath": "lib/media/firewallips.png",
+      "dependencies": []
+    },
+    "lib/media/firewallframentation.png": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 19669,
+      "exportedPath": "lib/media/firewallframentation.png",
+      "dependencies": []
+    },
+    "lib/media/threewayhandshake.png": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 78171,
+      "exportedPath": "lib/media/threewayhandshake.png",
+      "dependencies": []
+    },
+    "lib/media/lan_connection_arp.png": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 139142,
+      "exportedPath": "lib/media/lan_connection_arp.png",
+      "dependencies": []
+    },
+    "lib/media/arp_spoofing_example.png": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 216805,
+      "exportedPath": "lib/media/arp_spoofing_example.png",
+      "dependencies": []
+    },
+    "lib/media/dumpeo_de_trafico.png": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 193048,
+      "exportedPath": "lib/media/dumpeo_de_trafico.png",
+      "dependencies": []
+    },
+    "lib/media/rts.png": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 141858,
+      "exportedPath": "lib/media/rts.png",
+      "dependencies": []
+    },
+    "lib/media/cts.png": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 135396,
+      "exportedPath": "lib/media/cts.png",
+      "dependencies": []
+    },
+    "lib/media/cts_time_ws.png": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 60156,
+      "exportedPath": "lib/media/cts_time_ws.png",
+      "dependencies": []
+    },
+    "lib/media/cts_time_ts.png": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 95767,
+      "exportedPath": "lib/media/cts_time_ts.png",
+      "dependencies": []
+    },
+    "lib/media/ghex_cts.png": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 21982,
+      "exportedPath": "lib/media/ghex_cts.png",
+      "dependencies": []
+    },
+    "lib/media/cts_ws_time.png": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 101793,
+      "exportedPath": "lib/media/cts_ws_time.png",
+      "dependencies": []
+    },
+    "lib/media/ghex_edit_time.png": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 24890,
+      "exportedPath": "lib/media/ghex_edit_time.png",
+      "dependencies": []
+    },
+    "lib/media/rce_with_drupal.png": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 36839,
+      "exportedPath": "lib/media/rce_with_drupal.png",
+      "dependencies": []
+    },
+    "lib/media/add_php_to_drupal.png": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 66495,
+      "exportedPath": "lib/media/add_php_to_drupal.png",
+      "dependencies": []
+    },
+    "lib/media/edit_templates_rce_joomla.png": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 39395,
+      "exportedPath": "lib/media/edit_templates_rce_joomla.png",
+      "dependencies": []
+    },
+    "lib/media/select_template_rce_joomla.png": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 173446,
+      "exportedPath": "lib/media/select_template_rce_joomla.png",
+      "dependencies": []
+    },
+    "lib/media/inject_code_rce_joomla.png": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 235625,
+      "exportedPath": "lib/media/inject_code_rce_joomla.png",
+      "dependencies": []
+    },
+    "lib/media/rce_joomla.png": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 171374,
+      "exportedPath": "lib/media/rce_joomla.png",
+      "dependencies": []
+    },
+    "lib/media/rce_wordpress.png": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 144662,
+      "exportedPath": "lib/media/rce_wordpress.png",
+      "dependencies": []
+    },
+    "lib/media/rce_wordpress_success.png": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 112307,
+      "exportedPath": "lib/media/rce_wordpress_success.png",
+      "dependencies": []
+    },
+    "lib/media/db_version_whois_response.png": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 12570,
+      "exportedPath": "lib/media/db_version_whois_response.png",
+      "dependencies": []
+    },
+    "lib/media/proxy.png.png": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 212526,
+      "exportedPath": "lib/media/proxy.png.png",
+      "dependencies": []
+    },
+    "lib/media/reverseshell.png": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 47496,
+      "exportedPath": "lib/media/reverseshell.png",
+      "dependencies": []
+    },
+    "lib/media/bindshell.png": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 42135,
+      "exportedPath": "lib/media/bindshell.png",
+      "dependencies": []
+    },
+    "lib/media/allow_methods.png": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 30605,
+      "exportedPath": "lib/media/allow_methods.png",
+      "dependencies": []
+    },
+    "lib/media/automated_scan_owap_zap.png": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 84034,
+      "exportedPath": "lib/media/automated_scan_owap_zap.png",
+      "dependencies": []
+    },
+    "lib/media/import_openapi_definition_zap.png": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 114259,
+      "exportedPath": "lib/media/import_openapi_definition_zap.png",
+      "dependencies": []
+    },
+    "lib/media/manual_explore_zap.png": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 84545,
+      "exportedPath": "lib/media/manual_explore_zap.png",
+      "dependencies": []
+    },
+    "lib/media/include_in_context_zap.png": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 185030,
+      "exportedPath": "lib/media/include_in_context_zap.png",
+      "dependencies": []
+    },
+    "lib/media/alerts_zap.png": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 392853,
+      "exportedPath": "lib/media/alerts_zap.png",
+      "dependencies": []
+    },
+    "lib/media/mitmweb.png": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 293446,
+      "exportedPath": "lib/media/mitmweb.png",
+      "dependencies": []
+    },
+    "lib/media/editor_swagger.png": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 234418,
+      "exportedPath": "lib/media/editor_swagger.png",
+      "dependencies": []
+    },
+    "lib/media/import_yml_postman.png": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 99156,
+      "exportedPath": "lib/media/import_yml_postman.png",
+      "dependencies": []
+    },
+    "lib/media/devtools_network.png": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 96574,
+      "exportedPath": "lib/media/devtools_network.png",
+      "dependencies": []
+    },
+    "lib/media/devtools_export_requests.png": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 118329,
+      "exportedPath": "lib/media/devtools_export_requests.png",
+      "dependencies": []
+    },
+    "lib/media/cbc.png": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 110190,
+      "exportedPath": "lib/media/cbc.png",
+      "dependencies": []
+    },
+    "lib/media/regex_crlf_injection.png": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 22665,
+      "exportedPath": "lib/media/regex_crlf_injection.png",
+      "dependencies": []
+    },
+    "lib/media/changepassword.png": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 5439,
+      "exportedPath": "lib/media/changepassword.png",
+      "dependencies": []
+    },
+    "lib/media/changepasswordcsrf.png": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 66433,
+      "exportedPath": "lib/media/changepasswordcsrf.png",
+      "dependencies": []
+    },
+    "lib/media/get_csrf.png": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 51070,
+      "exportedPath": "lib/media/get_csrf.png",
+      "dependencies": []
+    },
+    "lib/media/cssi_blue.png": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 11194,
+      "exportedPath": "lib/media/cssi_blue.png",
+      "dependencies": []
+    },
+    "lib/media/cssi_green.png": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 11652,
+      "exportedPath": "lib/media/cssi_green.png",
+      "dependencies": []
+    },
+    "lib/media/cssi_codigo_fuente.png": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 78278,
+      "exportedPath": "lib/media/cssi_codigo_fuente.png",
+      "dependencies": []
+    },
+    "lib/media/cssi_css_props.png": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 23246,
+      "exportedPath": "lib/media/cssi_css_props.png",
+      "dependencies": []
+    },
+    "lib/media/cssi_xss.png": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 88112,
+      "exportedPath": "lib/media/cssi_xss.png",
+      "dependencies": []
+    },
+    "lib/media/cssi_codigo_fuente_2.png": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 75923,
+      "exportedPath": "lib/media/cssi_codigo_fuente_2.png",
+      "dependencies": []
+    },
+    "lib/media/graphql.png": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 95879,
+      "exportedPath": "lib/media/graphql.png",
+      "dependencies": []
+    },
+    "lib/media/livemode_graphql-kit.png": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 131133,
+      "exportedPath": "lib/media/livemode_graphql-kit.png",
+      "dependencies": []
+    },
+    "lib/media/possible_login_fix_h2_consoe.png": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 2566,
+      "exportedPath": "lib/media/possible_login_fix_h2_consoe.png",
+      "dependencies": []
+    },
+    "lib/media/jwt_strcture.png": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 60490,
+      "exportedPath": "lib/media/jwt_strcture.png",
+      "dependencies": []
+    },
+    "lib/media/jwt.io.png": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 67552,
+      "exportedPath": "lib/media/jwt.io.png",
+      "dependencies": []
+    },
+    "lib/media/ssti_example.png": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 123744,
+      "exportedPath": "lib/media/ssti_example.png",
+      "dependencies": []
+    },
+    "lib/media/ssti_example2.png": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 151576,
+      "exportedPath": "lib/media/ssti_example2.png",
+      "dependencies": []
+    },
+    "lib/media/xml.png": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 46696,
+      "exportedPath": "lib/media/xml.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20230302212154.png": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 55789,
+      "exportedPath": "lib/media/pasted-image-20230302212154.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20230215173659.png": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 230909,
+      "exportedPath": "lib/media/pasted-image-20230215173659.png",
+      "dependencies": []
+    },
+    "lib/media/hola_mundo_ensamblador.png": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 526788,
+      "exportedPath": "lib/media/hola_mundo_ensamblador.png",
+      "dependencies": []
+    },
+    "lib/media/respawn_bash_ensamblador.png": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 190621,
+      "exportedPath": "lib/media/respawn_bash_ensamblador.png",
+      "dependencies": []
+    },
+    "lib/media/enviroment_pivoting_3_machines.png": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 38115,
+      "exportedPath": "lib/media/enviroment_pivoting_3_machines.png",
+      "dependencies": []
+    },
+    "lib/media/pivoting_4_machines.png": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 49658,
+      "exportedPath": "lib/media/pivoting_4_machines.png",
+      "dependencies": []
+    },
+    "lib/media/interceptarrespuestassiempreburp.png": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 96179,
+      "exportedPath": "lib/media/interceptarrespuestassiempreburp.png",
+      "dependencies": []
+    },
+    "lib/media/reglaspararemplazarvaloresburp.png": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 97322,
+      "exportedPath": "lib/media/reglaspararemplazarvaloresburp.png",
+      "dependencies": []
+    },
+    "lib/media/scopeconfigburp.png": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 80018,
+      "exportedPath": "lib/media/scopeconfigburp.png",
+      "dependencies": []
+    },
+    "lib/media/proxyhistoriajustscope.png": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 107783,
+      "exportedPath": "lib/media/proxyhistoriajustscope.png",
+      "dependencies": []
+    },
+    "lib/media/extensionsburp.png": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 146656,
+      "exportedPath": "lib/media/extensionsburp.png",
+      "dependencies": []
+    },
+    "lib/media/create_collection_postman.png": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 92637,
+      "exportedPath": "lib/media/create_collection_postman.png",
+      "dependencies": []
+    },
+    "lib/media/add_enpoint_postman.png": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 96228,
+      "exportedPath": "lib/media/add_enpoint_postman.png",
+      "dependencies": []
+    },
+    "lib/media/add_variables_postman.png": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 40450,
+      "exportedPath": "lib/media/add_variables_postman.png",
+      "dependencies": []
+    },
+    "lib/media/authorization_token_postman.png": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 49364,
+      "exportedPath": "lib/media/authorization_token_postman.png",
+      "dependencies": []
+    },
+    "lib/media/postman_proxy.png": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 70921,
+      "exportedPath": "lib/media/postman_proxy.png",
+      "dependencies": []
+    },
+    "lib/media/postman_proxy_capture.png": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 85306,
+      "exportedPath": "lib/media/postman_proxy_capture.png",
+      "dependencies": []
+    },
+    "lib/media/threading_python.png": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 225001,
+      "exportedPath": "lib/media/threading_python.png",
+      "dependencies": []
+    },
+    "lib/media/multiprocessing_python.png": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 205294,
+      "exportedPath": "lib/media/multiprocessing_python.png",
+      "dependencies": []
+    },
+    "lib/media/multiprocessing_python_subprocesses.png": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 105446,
+      "exportedPath": "lib/media/multiprocessing_python_subprocesses.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20230215165210.png": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 98199,
+      "exportedPath": "lib/media/pasted-image-20230215165210.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20230403162341.png": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 2298,
+      "exportedPath": "lib/media/pasted-image-20230403162341.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20230403162759.png": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 40217,
+      "exportedPath": "lib/media/pasted-image-20230403162759.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20230403163235.png": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 223772,
+      "exportedPath": "lib/media/pasted-image-20230403163235.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20230403163410.png": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 298444,
+      "exportedPath": "lib/media/pasted-image-20230403163410.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20230403163806.png": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 310786,
+      "exportedPath": "lib/media/pasted-image-20230403163806.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20230403164237.png": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 130504,
+      "exportedPath": "lib/media/pasted-image-20230403164237.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20230404130357.png": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 73686,
+      "exportedPath": "lib/media/pasted-image-20230404130357.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20230406111340.png": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 55955,
+      "exportedPath": "lib/media/pasted-image-20230406111340.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20230406112807.png": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 89741,
+      "exportedPath": "lib/media/pasted-image-20230406112807.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20230406112516.png": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 85343,
+      "exportedPath": "lib/media/pasted-image-20230406112516.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20230406153509.png": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 92256,
+      "exportedPath": "lib/media/pasted-image-20230406153509.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20230406154836.png": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 92030,
+      "exportedPath": "lib/media/pasted-image-20230406154836.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20230407170142.png": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 84229,
+      "exportedPath": "lib/media/pasted-image-20230407170142.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20230407165626.png": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 89920,
+      "exportedPath": "lib/media/pasted-image-20230407165626.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20230215163522.png": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 32853,
+      "exportedPath": "lib/media/pasted-image-20230215163522.png",
+      "dependencies": []
+    },
+    "lib/media/keberos_authentication_flow.png": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 220556,
+      "exportedPath": "lib/media/keberos_authentication_flow.png",
+      "dependencies": []
+    },
+    "lib/scripts/graph-wasm.wasm": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 23377,
+      "exportedPath": "lib/scripts/graph-wasm.wasm",
+      "dependencies": []
+    },
+    "lib/fonts/94f2f163d4b698242fef.otf": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 66800,
+      "exportedPath": "lib/fonts/94f2f163d4b698242fef.otf",
+      "dependencies": []
+    },
+    "lib/fonts/72505e6a122c6acd5471.woff2": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 104232,
+      "exportedPath": "lib/fonts/72505e6a122c6acd5471.woff2",
+      "dependencies": []
+    },
+    "lib/fonts/2d5198822ab091ce4305.woff2": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 104332,
+      "exportedPath": "lib/fonts/2d5198822ab091ce4305.woff2",
+      "dependencies": []
+    },
+    "lib/fonts/c8ba52b05a9ef10f4758.woff2": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 98868,
+      "exportedPath": "lib/fonts/c8ba52b05a9ef10f4758.woff2",
+      "dependencies": []
+    },
+    "lib/fonts/cb10ffd7684cd9836a05.woff2": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 106876,
+      "exportedPath": "lib/fonts/cb10ffd7684cd9836a05.woff2",
+      "dependencies": []
+    },
+    "lib/fonts/b5f0f109bc88052d4000.woff2": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 105804,
+      "exportedPath": "lib/fonts/b5f0f109bc88052d4000.woff2",
+      "dependencies": []
+    },
+    "lib/fonts/cbe0ae49c52c920fd563.woff2": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 106108,
+      "exportedPath": "lib/fonts/cbe0ae49c52c920fd563.woff2",
+      "dependencies": []
+    },
+    "lib/fonts/535a6cf662596b3bd6a6.woff2": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 111708,
+      "exportedPath": "lib/fonts/535a6cf662596b3bd6a6.woff2",
+      "dependencies": []
+    },
+    "lib/fonts/70cc7ff27245e82ad414.ttf": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 192740,
+      "exportedPath": "lib/fonts/70cc7ff27245e82ad414.ttf",
+      "dependencies": []
+    },
+    "lib/fonts/454577c22304619db035.ttf": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 161376,
+      "exportedPath": "lib/fonts/454577c22304619db035.ttf",
+      "dependencies": []
+    },
+    "lib/fonts/52ac8f3034507f1d9e53.ttf": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 191568,
+      "exportedPath": "lib/fonts/52ac8f3034507f1d9e53.ttf",
+      "dependencies": []
+    },
+    "lib/fonts/05b618077343fbbd92b7.ttf": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 155288,
+      "exportedPath": "lib/fonts/05b618077343fbbd92b7.ttf",
+      "dependencies": []
+    },
+    "lib/fonts/4bb6ac751d1c5478ff3a.woff2": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 7876,
+      "exportedPath": "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
+      "dependencies": []
+    },
+    "lib/media/874d8b8e340f75575caa.svg": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 317,
+      "exportedPath": "lib/media/874d8b8e340f75575caa.svg",
+      "dependencies": []
+    },
+    "lib/html/file-tree.html": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 148487,
+      "exportedPath": "lib/html/file-tree.html",
+      "dependencies": []
+    },
+    "lib/scripts/webpage.js": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 47290,
+      "exportedPath": "lib/scripts/webpage.js",
+      "dependencies": []
+    },
+    "lib/scripts/graph-view.js": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 15519,
+      "exportedPath": "lib/scripts/graph-view.js",
+      "dependencies": []
+    },
+    "lib/scripts/graph-wasm.js": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 14021,
+      "exportedPath": "lib/scripts/graph-wasm.js",
+      "dependencies": []
+    },
+    "lib/scripts/graph-render-worker.js": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 5179,
+      "exportedPath": "lib/scripts/graph-render-worker.js",
+      "dependencies": []
+    },
+    "lib/scripts/tinycolor.js": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 29832,
+      "exportedPath": "lib/scripts/tinycolor.js",
+      "dependencies": []
+    },
+    "lib/scripts/pixi.js": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 449509,
+      "exportedPath": "lib/scripts/pixi.js",
+      "dependencies": []
+    },
+    "lib/scripts/minisearch.js": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 29422,
+      "exportedPath": "lib/scripts/minisearch.js",
+      "dependencies": []
+    },
+    "lib/media/favicon.png": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 1105,
+      "exportedPath": "lib/media/favicon.png",
+      "dependencies": []
+    },
+    "lib/scripts/graph-data.js": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 35079,
+      "exportedPath": "lib/scripts/graph-data.js",
+      "dependencies": []
+    },
+    "lib/styles/obsidian.css": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 157786,
+      "exportedPath": "lib/styles/obsidian.css",
+      "dependencies": []
+    },
+    "lib/styles/theme.css": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 431072,
+      "exportedPath": "lib/styles/theme.css",
+      "dependencies": []
+    },
+    "lib/styles/global-variable-styles.css": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 236,
+      "exportedPath": "lib/styles/global-variable-styles.css",
+      "dependencies": []
+    },
+    "lib/styles/main-styles.css": {
+      "modifiedTime": 1712254888571,
+      "sourceSize": 23130,
+      "exportedPath": "lib/styles/main-styles.css",
+      "dependencies": []
+    }
+  }
+}

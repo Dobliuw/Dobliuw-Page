@@ -1,4 +1,92 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Hacking]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>Hacking</title><link></link></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Thu, 04 Apr 2024 18:22:23 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Thu, 04 Apr 2024 18:21:28 GMT</pubDate><ttl>60</ttl><dc:creator></dc:creator><item><title><![CDATA[Executable and Linkable Format - Formato ELF]]></title><description><![CDATA[<a class="tag" href="?query=tag:teoria" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#teoria</a> <a class="tag" href="?query=tag:sistemas" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#sistemas</a> <a class="tag" href="?query=tag:ejecutables" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#ejecutables</a> 
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Hacking]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>Hacking</title><link></link></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Thu, 04 Apr 2024 19:43:33 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Thu, 04 Apr 2024 19:42:22 GMT</pubDate><ttl>60</ttl><dc:creator></dc:creator><item><title><![CDATA[Cheat Sheat]]></title><description><![CDATA[ 
+ <br><br><br>
+<br> Checkers 
+<br>Checkers 
+<br>
+Testo informativo<br>
+de ejemplo del color del titulo 
+<br>Hipervinculos en <a data-tooltip-position="top" aria-label="https://raw.githubusercontent.com/ambionics/magento-exploits/master/magento-sqli.py" rel="noopener" class="external-link" href="https://raw.githubusercontent.com/ambionics/magento-exploits/master/magento-sqli.py" target="_blank">obsidian</a><br>La letra se puede poner en negrita<br>Relaciones entre notas <a data-href="Enumeración de Wordpress" href="\notes\4.-cybersecurity\redteam\pentesting\sistemas\2.-fases-auditoria\1.-reconocimiento\gestores-de-contenido\wordpress\enumeración-de-wordpress.html" class="internal-link" target="_self" rel="noopener">Enumeración de Wordpress</a><br>print(f"Esto es para injectar {comandos}")
+Copy<br>Referencias, palabra a explicar o adjuntar links ---&gt; Linux <a href="\#fn-1-9c28fa31c57df6d2" class="footnote-link" target="_self" rel="noopener">[1]</a><br><br>Tablas:<br>
+| wordpress | joomla | drupal | magento |<br>
+| ----------|---------|--------|-------|<br>
+| wpscan | joomscan | droopescan | magescan | <br>Ajustar imagenes: <br><img alt="Pasted image 20230215165507.png" height="200" src="\lib\media\pasted-image-20230215165507.png" style="width: 200px; max-width: 100%;"><br>about:config ---&gt; browser.fixup.domainsuffixwhitelist.{termination_url}<br>
+<br>
+<br>El mejor sistema operativo del mundo<a href="\#fnref-1-9c28fa31c57df6d2" class="footnote-backref footnote-link" target="_self" rel="noopener">↩︎</a>
+]]></description><link>notes\1.-tomar-nota\obsidian.html</link><guid isPermaLink="false">Notes/1. Tomar Nota/Obsidian.md</guid><pubDate>Tue, 19 Dec 2023 15:38:15 GMT</pubDate><enclosure url="lib\media\pasted-image-20230215165507.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;lib\media\pasted-image-20230215165507.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Vim]]></title><description><![CDATA[<a class="tag" href="?query=tag:editordetexto" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#editordetexto</a> <a class="tag" href="?query=tag:atajos" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#atajos</a> 
+ <br><br>
+<br>Tags: <a href=".?query=tag:editordetexto" class="tag" target="_blank" rel="noopener">#editordetexto</a> <a href=".?query=tag:atajos" class="tag" target="_blank" rel="noopener">#atajos</a> 
+<br><br><br><br><br><br><br><br>
+<br>
+
+Funciona como un Ctrl + z, vuelve para atrás el ultimo cambio.
+
+<br>
+
+Permite poner en modo visual el editor para trabajar sobre una selección texto.
+
+<br>
+
+Permite ingresar al mvodo para insertar comandos. 
+
+<br>
+
+Permite al usuario ingresar una string para buscar coincidencias. 
+
+<br>
+
+Modo interactivo, permite al usuario escribir.
+
+<br>
+
+Lleva el cursor del usuario hasta el principio de la línea en la que se encuentra. 
+
+<br>
+
+Lleva el cursor del usvuario hasta el final de la línea en la que se encuentra.}
+
+<br>
+
+Lleva el cursor del usuario hasta la siguiente palabra. 
+
+<br>
+
+Con una selección previamente hecha funciona para copiar la misma y sin selección para copiar todoa la línea.
+
+<br>
+
+Pega lo que este en la clipboard del usuario.
+
+<br>
+
+Inserta una nueva línea.
+
+<br>
+
+Bajar a la línea de abajo.
+
+<br>
+
+Eliminar líneas, palabras, selecciones, se combinan con teclas.
+
+<br>
+
+Repetir lo ultimo se realizo.
+
+<br>
+
+Supongamos que tengo mucho texto separado por , y quiero remplazarlo por un salto de línea: 
+
+<br><br>Esto para remplazar el primer valor a cambiar por un nuevo valor, si quisiera aplicarlo para todos los matches debería agregar /g al final.<br><br><br>En el ejemplo de arriba remplazamos la , ( /,/ )  con un salto de línea ( /\r ). <br>
+<br>
+
+Con los números y las teclas anteriormente vistas se pueden realizar combinaciones muy potentes: 
+<br><br>[ d +  2  + w ] --&gt; Eliminar 2 palabras.<br>
+[ 3 + d + d ] --&gt; Eliminar 3 líneas.<br>
+[ 3 + w ] ------&gt; Moverse 3 palabras a la derecha.<br>
+[ d + w ]  -----&gt; Eliminar palabra.<br><br>Los macros son una secuencia de teclas que se repiten continuamente, los cuales se pueden grabar para posteriormente indicar que la secuencia de teclas grabada se realice un total de x veces. <br>Estos se pueden grabar con para una tecla en particular, por ejemplo, quiero hacer que a la hora de realizar un [ Esc ] + [ o ] se realice lo siguiente: <br>print("Dobliuw")<br>Por lo que podría presionar [ Esc ] + [ q ] + [ {tecla_to_macro} ] para indicar que quiero guardar un macro de lo que voy a realizar en la letra {{tecla_to_macro}}( [ o ] ) en el ejemplo mencionado. <br>Una vez presionado las teclas indicadas aparecerá recording @{tecla_to_macro} (recording @o), lo cual nos indica que estamos grabando una secuencia de teclas dentro de la letra "o". <br>Una vez finalizada la secuencia de teclas que nos interesa realizar, tocamos [ Esc ] + [ q ], y habríamos guardado la secuencia de teclas ingresada bajo la letra ingresada ( [ o ] ). <br>Para indicar que queremos que se realice el macro guardado lo hacemos con [ Esc ] + [ @ ] + [ {tecla_to_macro} ] ( [ Esc ] + [ @ ] + [ o ] )]]></description><link>notes\1.-tomar-nota\vim.html</link><guid isPermaLink="false">Notes/1. Tomar Nota/Vim.md</guid><pubDate>Tue, 19 Dec 2023 15:38:17 GMT</pubDate></item><item><title><![CDATA[Clase 1]]></title><description><![CDATA[ 
+ <br><img alt="Pasted image 20240325212936.png" src="\lib\media\pasted-image-20240325212936.png"><br>"Router de casa" = Router + Switch + AP<br><br>MEdios<br>cobre = electrica<br>
+fibra optica = luz<br>
+wireless = modulación electromagnetica]]></description><link>notes\2.-redes\ccna-1\clase-1.html</link><guid isPermaLink="false">Notes/2. Redes/CCNA 1/Clase 1.md</guid><pubDate>Tue, 26 Mar 2024 00:38:00 GMT</pubDate><enclosure url="lib\media\pasted-image-20240325212936.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;lib\media\pasted-image-20240325212936.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Executable and Linkable Format - Formato ELF]]></title><description><![CDATA[<a class="tag" href="?query=tag:teoria" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#teoria</a> <a class="tag" href="?query=tag:sistemas" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#sistemas</a> <a class="tag" href="?query=tag:ejecutables" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#ejecutables</a> 
  <br><br>
 <br>Tags: <a href=".?query=tag:teoria" class="tag" target="_blank" rel="noopener">#teoria</a> <a href=".?query=tag:sistemas" class="tag" target="_blank" rel="noopener">#sistemas</a> <a href=".?query=tag:ejecutables" class="tag" target="_blank" rel="noopener">#ejecutables</a>
 <br><br><br>El formato ELF (Executable and Linkable Format) es un estándar amplicamente utilizado en sistemas operativos Unix y Linux para representar archivos ejecutables, bibliotecas compartidas y objetos compilados. Fue diseñado para ser un formato versátil y extensible que permite a los desarrolladores crear y distribuir software de manera eficiente y portátil.<br><br><br>Un archivo ELF consiste en una serie de encabezados y secciones que indican al sistema operativo cómo cargar y administrar el archivo en memoria. Recordemos que un archivo ELF se utiliza para proporcionar información esencial al sistema operativo sobre cómo organizar y ejecutar el cotenido del archivo. La información que el sistema necesita puede incluir:<br>
@@ -62,13 +150,13 @@ Copy<br>Ejemplo:<br><img alt="readelf_section_table.png" src="\lib\media\readelf
 Copy<br>Ejemplo:<br><img alt="readelf_section_table.png" src="\lib\media\readelf_section_table.png">]]></description><link>notes\3.-sistema\formatos-ejecutables\linux-unix\executable-and-linkable-format-formato-elf.html</link><guid isPermaLink="false">Notes/3. Sistema/Formatos Ejecutables/Linux - Unix/Executable and Linkable Format - Formato ELF.md</guid><pubDate>Thu, 04 Apr 2024 17:34:25 GMT</pubDate><enclosure url="lib\media\elf_format.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;lib\media\elf_format.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Portable Executable - Formato PE]]></title><description><![CDATA[<a class="tag" href="?query=tag:teoria" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#teoria</a> <a class="tag" href="?query=tag:sistemas" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#sistemas</a> <a class="tag" href="?query=tag:ejecutables" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#ejecutables</a> 
  <br><br>
 <br>Tags: <a href=".?query=tag:teoria" class="tag" target="_blank" rel="noopener">#teoria</a> <a href=".?query=tag:sistemas" class="tag" target="_blank" rel="noopener">#sistemas</a> <a href=".?query=tag:ejecutables" class="tag" target="_blank" rel="noopener">#ejecutables</a>
-<br><br><br>PE proviene de Portable Executable, el cual es un formato de archivo para ejecutables utilizados en los sistemas operativos Windows, se basa en el formato de archivo COFF (Common Object File Format).<br>No solo los arhciovs .exe son archivos PE, las bibliotecas de enlaces dinámicos (.dll), los módulos del kernel (.srv), las aplicaciones del panel de control (.cpl) y muchos otros también son archivos PE. Un archivo PE es una estructura de datos que contiene la información necesaria para que el cargador del sistema operativo pueda cargar ese ejecutable en la memoria y ejecutarlo.<br><br><br>Un archivo PE consiste de una serie de headers y secciones que indican al enlazador dinámico <a href="\#fn-1-82c7a978866edd42" class="footnote-link" target="_self" rel="noopener">[1]</a> cómo asignar el archivo en memoria.<br>
+<br><br><br>PE proviene de Portable Executable, el cual es un formato de archivo para ejecutables utilizados en los sistemas operativos Windows, se basa en el formato de archivo COFF (Common Object File Format).<br>No solo los arhciovs .exe son archivos PE, las bibliotecas de enlaces dinámicos (.dll), los módulos del kernel (.srv), las aplicaciones del panel de control (.cpl) y muchos otros también son archivos PE. Un archivo PE es una estructura de datos que contiene la información necesaria para que el cargador del sistema operativo pueda cargar ese ejecutable en la memoria y ejecutarlo.<br><br><br>Un archivo PE consiste de una serie de headers y secciones que indican al enlazador dinámico <a href="\#fn-1-75181b4d4a48f787" class="footnote-link" target="_self" rel="noopener">[1]</a> cómo asignar el archivo en memoria.<br>
 Recordemos que un archivo de formato PE sirve para decirle a enlazadores dinámicos qué información necesitan para administrar el código ejecutable empaquetado. La información que requiere el sistema se puede mencionar como:<br>
 <br>Referencias a DLLs a importar.
 <br>Importar/Exportar tablas de API.
 <br>Cuánto espacio de memoria reservar. (En la memoria irán el código, los datos y los recursos que necesitará el proceso en el sistema. El PE nunca se mapea entero, solo por partes).
 <br>Teniendo en cuenta esto, la estructura de esta información se puede encontrar de la siguiente manera:<br>Imagén de capturada del <a data-href="PE_Format.draw" href="\notes\3.-sistema\formatos-ejecutables\windows\graficos\pe_format.draw.html" class="internal-link" target="_self" rel="noopener">PE_Format.draw</a>.<br>
-<img alt="PE_Format.png" src="\lib\media\pe_format.png"><br><br><br>Cada arachivo PE comienza con una estructura de 64 bytes de largo llamada DOS Header, es lo que hace que el archivo PE sea un ejecutable de MS-DOS.<br>IMAGE<a href="\#fn-3-82c7a978866edd42" class="footnote-link" target="_self" rel="noopener">[3]</a> del DOS Header<br>typedef struct _IMAGE_DOS_HEADER { 
+<img alt="PE_Format.png" src="\lib\media\pe_format.png"><br><br><br>Cada arachivo PE comienza con una estructura de 64 bytes de largo llamada DOS Header, es lo que hace que el archivo PE sea un ejecutable de MS-DOS.<br>IMAGE<a href="\#fn-3-75181b4d4a48f787" class="footnote-link" target="_self" rel="noopener">[3]</a> del DOS Header<br>typedef struct _IMAGE_DOS_HEADER { 
 0x00 WORD e_magic; 
 0x02 WORD e_cblp; 
 0x04 WORD e_cp;
@@ -193,9 +281,9 @@ Copy<br>Algunos de los elementos más importantes son<br>
 <br>.rsrc: Usado para restaurar recursos como iconos y bitmaps.
 <br><br><br><br><br><br>
 <br>
-<br>Dynamic Linker/Enlazador Dinámico: Parte esencial del sistema operativo que se encarga de resolver y cinvular referencias a DLL en tiempo de ejecución cuando un porgrma se carga en memoria.<a href="\#fnref-1-82c7a978866edd42" class="footnote-backref footnote-link" target="_self" rel="noopener">↩︎</a>
-<br>DOS: Término utilizado para referirse a Disk Operative System, sistema operativo que se utiliza para gestionar y controlar el acceso a dispositivos de almacenamiento, como discos duros, unidades de disquete y unidades de CD/DVD en un equipo. Dos sistemas operativos conocidos con el nombre DOS son MS-DOS y PC-DOS. <a href="\#fnref-2-82c7a978866edd42" class="footnote-backref footnote-link" target="_self" rel="noopener">↩︎</a>
-<br>IMAGE: En el contexto de arhcivos PE, IMAGE se utiliza en las estructuras de datos y encabezados en archivos PE para indicar que están relacionados con la implementación interna del formato PE y son parte del formato de archivo.<a href="\#fnref-3-82c7a978866edd42" class="footnote-backref footnote-link" target="_self" rel="noopener">↩︎</a>
+<br>Dynamic Linker/Enlazador Dinámico: Parte esencial del sistema operativo que se encarga de resolver y cinvular referencias a DLL en tiempo de ejecución cuando un porgrma se carga en memoria.<a href="\#fnref-1-75181b4d4a48f787" class="footnote-backref footnote-link" target="_self" rel="noopener">↩︎</a>
+<br>DOS: Término utilizado para referirse a Disk Operative System, sistema operativo que se utiliza para gestionar y controlar el acceso a dispositivos de almacenamiento, como discos duros, unidades de disquete y unidades de CD/DVD en un equipo. Dos sistemas operativos conocidos con el nombre DOS son MS-DOS y PC-DOS. <a href="\#fnref-2-75181b4d4a48f787" class="footnote-backref footnote-link" target="_self" rel="noopener">↩︎</a>
+<br>IMAGE: En el contexto de arhcivos PE, IMAGE se utiliza en las estructuras de datos y encabezados en archivos PE para indicar que están relacionados con la implementación interna del formato PE y son parte del formato de archivo.<a href="\#fnref-3-75181b4d4a48f787" class="footnote-backref footnote-link" target="_self" rel="noopener">↩︎</a>
 ]]></description><link>notes\3.-sistema\formatos-ejecutables\windows\portable-executable-formato-pe.html</link><guid isPermaLink="false">Notes/3. Sistema/Formatos Ejecutables/Windows/Portable Executable - Formato PE.md</guid><pubDate>Thu, 07 Dec 2023 22:28:05 GMT</pubDate><enclosure url="lib\media\pe_format.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;lib\media\pe_format.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Malware]]></title><description><![CDATA[<a class="tag" href="?query=tag:teoria" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#teoria</a> <a class="tag" href="?query=tag:malware" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#malware</a> 
  <br><br>
 <br>Tags: <a href=".?query=tag:teoria" class="tag" target="_blank" rel="noopener">#teoria</a> <a href=".?query=tag:malware" class="tag" target="_blank" rel="noopener">#malware</a> 
@@ -10301,4 +10389,8 @@ my_array=(${my_array[@]})
 
 Copy<br><br># Hacer uso del modulo RANDOM
 echo $(($RANDOM))
-Copy]]></description><link>notes\5.-tecnologías\scripting-en-bash.html</link><guid isPermaLink="false">Notes/5. Tecnologías/Scripting en Bash.md</guid><pubDate>Fri, 01 Dec 2023 19:30:49 GMT</pubDate></item></channel></rss>
+Copy]]></description><link>notes\5.-tecnologías\scripting-en-bash.html</link><guid isPermaLink="false">Notes/5. Tecnologías/Scripting en Bash.md</guid><pubDate>Fri, 01 Dec 2023 19:30:49 GMT</pubDate></item><item><title><![CDATA[Dobliuw Hacking notes]]></title><description><![CDATA[ 
+ <br><br><br>Welcome everyone, these are my notes, throughout my time in the world of technology, more specifically in Cybersecurity, I took the trouble to make explanatory notes of the concepts learned, uses made, technologies and automated tools learned, etc.<br><br>So the content that everyone will see here is basically:<br>
+<br>RedTeam (Offensive hacking, exploits, privilege escalations, technologies, protocols, networks and more).
+<br>BlueTeam (Defensive hacking, analysis, tools, this is the weakest branch of my notes).
+<br><br>I invite you to clone the repository and use the <a data-tooltip-position="top" aria-label="https://obsidian.md/" rel="noopener" class="external-link" href="https://obsidian.md/" target="_blank">Obsidian</a> tool to read or/and modify the notes.<br>PS: The notes were made in Obsidian with the <a data-tooltip-position="top" aria-label="https://excalidraw.com/" rel="noopener" class="external-link" href="https://excalidraw.com/" target="_blank">Excalidraw</a> Plugin and the Border theme ( Just in case that you want to see everything same as me ;) ).]]></description><link>readme.html</link><guid isPermaLink="false">README.md</guid><pubDate>Tue, 16 Jan 2024 22:06:21 GMT</pubDate></item></channel></rss>

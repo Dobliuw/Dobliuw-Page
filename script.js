@@ -12,7 +12,6 @@ document.addEventListener("DOMContentLoaded", function () {
     let historyIndex = -1;
     let visitorIP = null;
     let IPInfo = null;
-    let token = "327972a338da67"; // This token is from a fake and random account
     let isTyping = false;
 
     // Write title letter by letter like a stdout
@@ -83,8 +82,8 @@ document.addEventListener("DOMContentLoaded", function () {
             const response = await fetch("https://api.ipify.org?format=json");
             const data = await response.json();
             visitorIP = data.ip;
-            const response2 = await fetch(`https://ipinfo.io/${visitorIP}/json?TOKEN=${token}`)
-            IPInfo = await response2.json();
+            // const response2 = await fetch(`https://ipinfo.io/${visitorIP}/json?TOKEN=${token}`)
+            // IPInfo = await response2.json();
 
         }catch(e){
             console.error("Error fetching to the api.", e);
@@ -95,15 +94,15 @@ document.addEventListener("DOMContentLoaded", function () {
     getVisitorIP().then(() => {
         const vpnProviders = ["PacketHub S.A.", "M247 Europe SRL", "Choopa LLC", "Digital Ocean", "Proton Technologies AG", "NordVPN", "ExpressVPN", "CyberGhost", "Private Internet Access", "ProtonVPN"];
         if(visitorIP){
-            if (IPInfo){
-                if (vpnProviders.some(provider => IPInfo.org.toLowerCase().includes(provider.toLowerCase()))){
-                    ipElement.innerHTML = `<b style='color:green'>NICE!</b> Your IP looks like one from a VPN <b style='color:green'>${visitorIP}</b>. Good security!`
-                }else{
-                    ipElement.innerHTML = `<b style='color:red'>WARNING:</b> Your IP could be exposed <b style='color:red'>${visitorIP}</b>. Advice? Use a VPN (If u are using it, ignore me)`
-                }
-            }else{
+            // if (IPInfo){
+            //     if (vpnProviders.some(provider => IPInfo.org.toLowerCase().includes(provider.toLowerCase()))){
+            //         ipElement.innerHTML = `<b style='color:green'>NICE!</b> Your IP looks like one from a VPN <b style='color:green'>${visitorIP}</b>. Good security!`
+            //     }else{
+            //         ipElement.innerHTML = `<b style='color:red'>WARNING:</b> Your IP could be exposed <b style='color:red'>${visitorIP}</b>. Advice? Use a VPN (If u are using it, ignore me)`
+            //     }
+            // }else{
                 ipElement.innerHTML = `<b style='color:red'>WARNING:</b> Your IP could be exposed <b style='color:red'>${visitorIP}</b>. Advice? Use a VPN (If u are using it, ignore me)`
-            }
+            // }
         }
     })
 

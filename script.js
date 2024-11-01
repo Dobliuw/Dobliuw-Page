@@ -12,15 +12,8 @@ document.addEventListener("DOMContentLoaded", function () {
     let historyIndex = -1;
     let visitorIP = null;
     let IPInfo = null;
-    let token;
+    let token = "327972a338da67"; // This token is from a fake and random account
     let isTyping = false;
-
-
-    // Function to get tokens
-    const loadToken = async () => {
-        const response = await('./config.json');
-        const token = await response.json().IPINFO_TOKEN;
-    }
 
     // Write title letter by letter like a stdout
     function typeTitle(text, element, speed, index = 0) {

@@ -101,7 +101,7 @@ document.addEventListener("DOMContentLoaded", function () {
             //         ipElement.innerHTML = `<b style='color:red'>WARNING:</b> Your IP could be exposed <b style='color:red'>${visitorIP}</b>. Advice? Use a VPN (If u are using it, ignore me)`
             //     }
             // }else{
-                ipElement.innerHTML = `<b style='color:red'>WARNING:</b> Your IP could be exposed <b style='color:red'>${visitorIP}</b>. Advice? Use a VPN (If u are using it, ignore me)`
+                ipElement.innerHTML = `<b style='color:red'>WARNING:</b> Your IP could be exposed <b style='color:red'>${visitorIP}</b>.`
             // }
         }
     })

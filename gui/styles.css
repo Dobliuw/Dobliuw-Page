@@ -1,0 +1,166 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#matrixCanvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1; /* Coloca el canvas detrás de otros elementos */
+}
+
+@keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+.cursor {
+    display: inline-block;
+    animation: blink 1s infinite;
+}
+
+body {
+    background-color: black; /* Background color */
+    font-family: monospace;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center horizontally */
+    height: 100vh; /* Full viewport height */
+}
+
+
+#ip {
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #d7e1d7;
+    font-family: monospace;
+    padding: 5px 10px;
+    z-index: 10; /* Asegura que esté encima de otros elementos */
+    font-size: 1.25em;
+    text-align: center;
+    width: auto;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5); /* Añade una sombra para resaltarlo */
+}
+
+/* #title {
+    font-size: 5em;
+    margin-top: 5px;
+    min-height: 150px;
+    max-height: 70vh;
+    overflow-y: auto;
+    display: flex;
+    padding-bottom: 10px;
+    color: #d7e1d7;
+    white-space: pre; /* Evita que se colapse el espacio 
+} */
+
+#title {
+    color: white; 
+    font-size: 4em;  
+    margin-top: 30px; 
+    text-align: center; 
+    white-space: pre;
+}
+
+.notepad-container {
+    position: relative; /* Allow absolute positioning for overlapping */
+    width: 100%; /* Full width for the container */
+    height: 70%; /* Height of the container */
+    display: flex; /* Use flexbox to align the windows */
+    justify-content: center; /* Center the windows */
+    align-items: flex-end; /* Align windows to the bottom */
+}
+
+.notepad-window {
+    background-color: #1e1e1e; /* Notepad background color */
+    border: 2px solid #444; /* Window border color */
+    border-radius: 5px; /* Rounded corners */
+    width: 300px; /* Window width (smaller) */
+    height: 150px; /* Window height (smaller) */
+    padding: 8px; /* Inner padding */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Subtle shadow */
+    font-family: 'Courier New', Courier, monospace; /* Monospace font */
+    color: white; /* Text color */
+    margin: 0 10px; /* Margin between windows */
+    font-size: 0.8em; /* Smaller font size */
+}
+
+#notepad1 {
+    width: 40%;
+    height: 60%;
+    position: absolute; /* Position the second window */
+    left: 150px; /* Adjust left position for overlap */
+    top: 30px; /* Adjust top position for slight overlap */
+    z-index: 1; /* Send the second window behind the first */
+}
+
+#notepad2 {
+    height: 45%;
+    width: 30%;
+    z-index: 2; /* Bring the first window to front */
+}
+
+.notepad-title {
+    display: flex;
+    justify-content: space-between; /* Space between title and buttons */
+    align-items: center; /* Center vertically */
+    background-color: #333; /* Title bar background */
+    padding: 5px; /* Padding for title bar */
+    border-radius: 5px 5px 0 0; /* Rounded corners at the top */
+}
+
+.notepad-buttons {
+    display: flex;
+}
+
+.button {
+    width: 20px; /* Width of window buttons */
+    height: 20px; /* Height of window buttons */
+    background-color: #888; /* Button color */
+    margin-left: 5px; /* Space between buttons */
+    border-radius: 50%; /* Rounded buttons */
+    display: flex;
+    justify-content: center; /* Center icon in button */
+    align-items: center; /* Center icon in button */
+    cursor: pointer; /* Pointer on hover */
+}
+
+.highlight {
+    color: #4FEF00; /* Highlighted text color */
+    font-weight: bold; /* Bold highlighted text */
+}
+
+p {
+    line-height: 1.5; /* Improve readability */
+}
+
+.taskbar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 44px; /* Height of the taskbar */
+    display: flex;
+    justify-content: center; /* Center the icons in the taskbar */
+    align-items: center; /* Center vertically */
+    background-color: #3d3d3d55;
+}
+
+.task-icon {
+    width: 40px; /* Width of task icons */
+    text-align: center; /* Center text in icons */
+    color: white; /* Text color */
+    font-weight: bold; /* Bold text */
+    margin: 15px; /* Space between task icons */
+}
+
+.task-icon:hover{
+    cursor: pointer;
+}

@@ -1,0 +1,182 @@
+/* Estilo para el canvas de fondo */
+#matrixCanvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1; /* Coloca el canvas detrás de otros elementos */
+}
+
+/* Otros estilos del cuerpo */
+body {
+    background-color: #000;
+    color: #d7e1d7;
+    font-family: monospace;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+
+#ip {
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #d7e1d7;
+    font-family: monospace;
+    padding: 5px 10px;
+    z-index: 10; /* Asegura que esté encima de otros elementos */
+    font-size: 1.25em;
+    text-align: center;
+    width: auto;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5); /* Añade una sombra para resaltarlo */
+}
+
+#title {
+    font-size: 5em;
+    margin-top: 5px;
+    min-height: 150px;
+    max-height: 70vh;
+    overflow-y: auto;
+    display: flex;
+    padding-bottom: 10px;
+    color: #d7e1d7;
+    white-space: pre; /* Evita que se colapse el espacio */
+}
+
+
+@keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+.cursor {
+    display: inline-block;
+    animation: blink 1s infinite;
+}
+
+#console {
+    background-color: #1e1e1e;
+    color: #d7e1d7;
+    padding: 10px;
+    width: 80%;
+    margin-top: 2vh;
+    max-width: 800px;
+    min-height: 60vh;
+    font-weight: 300;
+    max-height: 60vh;
+    overflow-y: auto;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+#output {
+    white-space: pre-wrap;
+    font-weight: 300;
+    font-size: 1.2em;
+    overflow-y: auto;
+    max-height: 70vh; /* Ajusta esto según el diseño */
+    scrollbar-width: none; /* Oculta la barra en Firefox */
+}
+
+#output::-webkit-scrollbar {
+    display: none; /* Chrome, Safari y otros navegadores basados en Webkit */
+}
+
+.input-line {
+    display: flex;
+    align-items: center;
+    font-size: 1.2em;
+}
+
+#prompt {
+    margin-right: 5px;
+}
+
+#input {
+    background-color: transparent;
+    font-size: 1.2em;
+    font-weight: 300;
+    color: #d7e1d7;
+    border: none;
+    outline: none;
+    font-family: monospace;
+    width: 100%;
+}
+
+#input-focus{
+    font-size: 1.2em;
+    font-weight: 300;
+}
+
+#input::placeholder {
+    color: rgba(215, 225, 215, 0.2); /* Color gris claro y opacidad del 40% */
+    font-weight: 100; /* Opcional: más delgado para un aspecto apagado */
+    font-size: 0.8em;
+}
+
+/* Estilos para pantallas pequeñas, como teléfonos */
+@media (max-width: 768px) {
+    #title {
+        font-size: 2em; /* Reducir el tamaño del título */
+    }
+
+    #ip {
+        font-size: 1em; /* Reducir el tamaño de fuente */
+    }
+
+    #console {
+        padding: 10px;
+        width: 95%;
+        min-height: 40vh; /* Ajustar la altura mínima */
+    }
+
+    #output {
+        font-size: 1em; /* Reducir el tamaño del texto en el output */
+    }
+
+    .input-line {
+        flex-direction: row;
+        width: 100%;
+    }
+
+    #prompt {
+        font-size: 1em;
+    }
+
+    #input {
+        font-size: 1em;
+    }
+}
+
+/* Estilos para pantallas muy pequeñas, como teléfonos en modo vertical */
+@media (max-width: 480px) {
+    #title {
+        font-size: 1.5em;
+    }
+
+    #console {
+        padding: 8px;
+        width: 100%;
+        min-height: 35vh;
+    }
+
+    #output {
+        font-size: 0.9em;
+    }
+
+    #prompt {
+        font-size: 0.9em;
+    }
+
+    #input {
+        font-size: 0.9em;
+    }
+}

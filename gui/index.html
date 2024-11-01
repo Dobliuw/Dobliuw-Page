@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notepad Simulation</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- <h1 class="title">Welcome to Dobliuw's Resume</h1> -->
+     <!-- IP Info section (Detect if u are using or not VPN)-->
+     <div id="ip"></div>
+     <!-- 0s and 1s Background -->
+     <canvas id="matrixCanvas"></canvas>
+     <!-- This is the Title Div -->
+     <div id="title"></div>
+ 
+    <div class="notepad-container">
+        <div class="notepad-window" id="notepad1">
+            <div class="notepad-title">
+                <span>Hey! I'm Dobliuw (Owen Bonoris)</span>
+                <div class="notepad-buttons">
+                    <div class="button">_</div>
+                    <div class="button">□</div>
+                    <div class="button">X</div>
+                </div>
+            </div>
+            <p>
+                A <span class="highlight">Pentester</span> with a strong focus on cybersecurity, networks, and programming.<br><br>
+                Currently, I've been working mainly in system monitoring and defense and currently working on the <span class="highlight">Vulnerability Management Team</span>, 
+                but I’m looking forward to doing what I'm passionate about, offensive security as a Professional Pentester moving into the red team role.<br><br>
+                My experience includes network protocols and configuration (I'm doing the <span class="highlight">CCNA 1</span> right now - 10/31/2024), 
+                deep programming in languages like Python, Bash, and JavaScript.
+            </p>
+        </div>
+
+        <div class="notepad-window" id="notepad2">
+            <div class="notepad-title">
+                <span class="cursor"><a href="../notes/index.html" style="text-decoration: none; font-weight: 500; color: white">>>>>> CLICK HERE - NOTES SECTION <<<<< </a></span>
+                <div class="notepad-buttons">
+                    <div class="button">_</div>
+                    <div class="button">□</div>
+                    <div class="button">X</div>
+                </div>
+            </div>
+            <p>
+                <br>You chosen the option to see all my knowledge captured in articles. 
+                You will find a tree architecture where you can find notes about 
+                <span class="highlight">Offensive Cybersecurity</span>, <span class="highlight">Defensive Cybersecurity</span>, <span class="highlight">Operative Systems</span>, 
+                Networks, <span class="highlight">Programming Languages</span>, <span class="highlight">Low Level Concepts</span>, Electronic, 
+                <span class="highlight">Hardware Things</span> and more!<br><br>
+                Enjoy and learn!
+            </p>
+        </div>
+    </div>
+
+    <div class="taskbar">
+        <div class="task-icon"><img style="width: 6vh; height: 6vh;;"src="./media/windows.png"/></div>
+        <div class="task-icon"><a href="../cli/index.html"><img style="width: 6vh; height: 6vh;;"src="./media/powershell.png"/></a></div>
+        <div class="task-icon"><img style="width: 6vh; height: 6vh;;"src="./media/obsidian.png"/></div>
+        <div class="task-icon"><img style="width: 6vh; height: 6vh;;"src="./media/nordvpn.png"/></div>
+        <div class="task-icon"><img style="width: 6vh; height: 6vh;;"src="./media/visual-studio.png"/></div>
+        <div class="task-icon"><img style="width: 6vh; height: 6vh;;"src="./media/tor.png"/></div>
+        <div class="task-icon"><img style="width: 6.5vh; height: 6.5vh;;"src="./media/spotify.png"/></div>
+        <div class="task-icon"><img style="width: 5.5vh; height: 5.5vh;;"src="./media/notepad.png"/></div>
+    </div>
+    <script src="../cli/background.js"></script>
+    <script src="../cli/script.js"></script>
+</body>
+</html>

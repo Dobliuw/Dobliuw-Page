@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome Console</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- IP Info section (Detect if u are using or not VPN)-->
+    <div id="ip"></div>
+
+
+    <!-- 0s and 1s Background -->
+    <canvas id="matrixCanvas"></canvas>
+
+    <!-- This is the Title Div -->
+    <div id="title"></div>
+
+    <!-- Console -->
+    <div id="console">
+        <!-- This is the section to put all commands executed -->
+        <div id="output"></div>
+        <!-- This is the Line to write commands -->
+        <div class="input-line">
+            <span id="prompt"><b style="font-size: 1.2em;">dobliuw@kali$</b></span>
+            <input type="text" id="input" autofocus placeholder="Insert a command..." >
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <script src="background.js"></script>
+</body>
+</html>

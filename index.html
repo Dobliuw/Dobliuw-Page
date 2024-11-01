@@ -1,33 +1,31 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome Console</title>
+    <title>Landing Page</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <!-- IP Info section (Detect if u are using or not VPN)-->
-    <div id="ip"></div>
-
-
     <!-- 0s and 1s Background -->
     <canvas id="matrixCanvas"></canvas>
-
-    <!-- This is the Title Div -->
-    <div id="title"></div>
-
-    <!-- Console -->
-    <div id="console">
-        <!-- This is the section to put all commands executed -->
-        <div id="output"></div>
-        <!-- This is the Line to write commands -->
-        <div class="input-line">
-            <span id="prompt"><b style="font-size: 1.5em; font-weight: 50;">dobliuw@kali$</b></span>
-            <input type="text" id="input" autofocus placeholder="Insert a command..." >
+    <div style="display: flex; flex-direction: column; align-items: center;">
+        <h1 style="margin-bottom: 10vh;">Select the option to look my Resume</h1>
+        <div class="container">
+            <div class="square-container">
+                <a href="./cli/index.html" class="square">
+                    <img style="height: 10dvi; width: 10dvi;" src="../notes/lib/media/cli.png" alt="CLI"/>
+                </a>
+                <h1 style="color:white">CLI</h1>
+            </div>
+            <div class="square-container">
+                <a href="./gui/index.html" class="square">
+                    <img style="height: 7.5dvi; width: 7.5dvi;" src="../notes/lib/media/gui.png" alt="GUI"/>
+                </a>
+                <h1 style="color:white">GUI</h1>
+            </div>
         </div>
     </div>
-    <script src="script.js"></script>
-    <script src="background.js"></script>
+    <script src="./cli/background.js"></script>
 </body>
 </html>
